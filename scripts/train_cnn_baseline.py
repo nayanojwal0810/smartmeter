@@ -262,6 +262,10 @@ def main() -> None:
     split_cfg_path = Path(data_cfg.get("split_config_path", "configs/kettle_household_split.yaml"))
     split_manifest_path = Path(data_cfg.get("split_manifest_path", "artifacts/manifests/kettle_household_split.json"))
     targets_path = Path(data_cfg.get("evaluation_targets_path", "artifacts/manifests/kettle_evaluation_targets.jsonl"))
+    if not targets_path.exists():
+        val_only_path = Path("artifacts/manifests/kettle_validation_targets.jsonl")
+        if val_only_path.exists():
+            targets_path = val_only_path
     processed_dir = Path(data_cfg.get("processed_dir", "data/processed/kettle"))
     raw_data_dir = Path("data/interim/refit_clean")
 

@@ -70,7 +70,9 @@ data/processed/
 *.h5
 
 # --- Large Generated Manifests / JSONL Artifacts ---
+*.jsonl
 artifacts/manifests/*.jsonl
+artifacts/data_snapshot/*.jsonl
 
 # --- Colab Generated ZIP Packages ---
 artifacts/colab/*.zip
