@@ -125,6 +125,41 @@ class ResNet1D(nn.Module):
         self.gap = nn.AdaptiveAvgPool1d(output_size=1)
         self.classifier = nn.Linear(in_features=f3, out_features=out_features)
 
+    def forward_features(self, x: torch.Tensor) -> torch.Tensor:
+        """Forward pass up to final convolutional feature map before GAP.
+
+        Args:
+            x: Input tensor of shape (B, 1, 510) or (B, 510).
+
+        Returns:
+            Feature map tensor of shape (B, 128, 510).
+        """
+        if x.dim() == 2:
+            x = x.unsqueeze(1)
+        elif x.dim() != 3:
+            raise ValueError(f"Expected 2D or 3D input tensor, got shape {x.shape}")
+
+        x = self.block1(x)
+        x = self.block2(x)
+        x = self.block3(x)
+        return x
+
+    def extract_cam(self, x: torch.Tensor) -> torch.Tensor:
+        """Extract raw Class Activation Map (CAM) for presence class before GAP.
+
+        Args:
+            x: Input tensor of shape (B, 1, 510) or (B, 510).
+
+        Returns:
+            CAM tensor of shape (B, 510).
+        """
+        features = self.forward_features(x)  # (B, C, T)
+        # weights: (out_features, in_features) -> (1, C) -> squeeze to (C,)
+        w = self.classifier.weight[0]  # (C,)
+        # Weighted sum across channels: (B, C, T) * (C, 1) -> sum along C -> (B, T)
+        cam = torch.einsum("bct,c->bt", features, w)
+        return cam
+
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """Forward pass computing scalar logit per window.
 
@@ -134,16 +169,8 @@ class ResNet1D(nn.Module):
         Returns:
             Raw logit tensor of shape (B, 1).
         """
-        if x.dim() == 2:
-            x = x.unsqueeze(1)  # (B, 510) -> (B, 1, 510)
-        elif x.dim() != 3:
-            raise ValueError(f"Expected 2D or 3D input tensor, got shape {x.shape}")
-
-        x = self.block1(x)
-        x = self.block2(x)
-        x = self.block3(x)
-
-        feat = self.gap(x)  # (B, 128, 1)
+        features = self.forward_features(x)
+        feat = self.gap(features)  # (B, 128, 1)
         feat = feat.squeeze(-1)  # (B, 128)
         logits = self.classifier(feat)  # (B, 1)
         return logits
@@ -152,3 +179,4 @@ class ResNet1D(nn.Module):
         """Compute predicted class probabilities via sigmoid."""
         logits = self.forward(x)
         return torch.sigmoid(logits)
+

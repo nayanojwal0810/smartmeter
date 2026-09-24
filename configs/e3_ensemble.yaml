@@ -1,0 +1,53 @@
+# Experiment 3: Multi-Scale Temporal ResNet Ensemble + CAM Localization Configuration
+# Reference CamAL Multi-Scale Architecture (k in {5, 7, 9, 15, 25}) on REFIT Kettle
+
+experiment:
+  name: "e3_multi_scale_resnet_cam"
+  decision_id: "D-016"
+  description: "Multi-scale temporal ResNet ensemble (k in {5,7,9,15,25}) + reference CamAL localization"
+  version: "1.0.0"
+
+models:
+  ensemble_kernels:
+    - 5
+    - 7
+    - 9
+    - 15
+    - 25
+  in_channels: 1
+  input_length: 510
+  filter_counts:
+    - 64
+    - 128
+    - 128
+  block2_kernel: 5
+  block3_kernel: 3
+  out_features: 1
+
+training:
+  appliance: "kettle"
+  seed: 42
+  batch_size: 256
+  learning_rate: 0.001
+  optimizer: "Adam"
+  weight_decay: 0.0
+  max_epochs: 10
+  checkpoint_policy: "fixed_epoch"  # Deterministic fixed-epoch policy (epoch 10) across all 5 models
+  fixed_threshold: 0.50
+  normalization: "standardize"
+
+localization:
+  detection_threshold: 0.50
+  loc_threshold: 0.50
+  event_gap_seconds: 20
+  event_max_duration_seconds: 600
+  event_iou_threshold: 0.50
+
+data:
+  dataset_version: "v1.0.0"
+  snapshot_sha256: "dd41f144ceafa516d7b2ba2c0bb42959f7a6e7e7da3cf6a48d96b78da3b8e36a"
+  split_config_path: "configs/kettle_household_split.yaml"
+  split_manifest_path: "artifacts/manifests/kettle_household_split.json"
+  evaluation_targets_path: "artifacts/manifests/kettle_evaluation_targets.jsonl"
+  processed_dir: "data/processed/kettle"
+  artifacts_dir: "artifacts/experiments/e3_multi_scale_resnet"
