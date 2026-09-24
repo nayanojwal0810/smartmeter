@@ -1,0 +1,8 @@
+{
+  "mean": 523.9399710171651,
+  "std": 764.9068175879584,
+  "method": "standardize",
+  "fitted_on_split": "train",
+  "train_samples_count": 141003,
+  "unit": "Watts"
+}

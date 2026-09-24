@@ -1,0 +1,66 @@
+# Locked Primary Household Split Configuration for Kettle Weak Supervision
+# Decision: D-007 (Frozen Primary Household Split)
+# Reference: 16 Train / 2 Validation / 2 Test
+
+appliance: kettle
+split_version: "v1.0.0"
+split_name: "primary_household_split_16_2_2"
+
+# Strict household-level isolation to prevent cross-household temporal and structural leakage
+train_households:
+  - 1
+  - 3
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 15
+  - 16
+  - 18
+  - 19
+  - 20
+  - 21
+
+validation_households:
+  - 4
+  - 17
+
+test_households:
+  - 2
+  - 13
+
+# Metadata-level weak Kettle presence indicator (1 = positive presence in metadata, 0 = unmonitored)
+# Used exclusively for model training weak supervision.
+positive_households:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 11
+  - 12
+  - 13
+  - 17
+  - 19
+  - 20
+  - 21
+
+unmonitored_households:
+  - 1
+  - 10
+  - 15
+  - 16
+  - 18
+
+rationale: >
+  Strict household-level isolation ensures no temporal, signature, or background power
+  leakage occurs across splits. Model training is weakly supervised using household-level
+  presence only. Holdout test households (H2, H13) are strictly frozen and reserved for
+  final CAM evaluation and error analysis.

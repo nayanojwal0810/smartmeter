@@ -1,0 +1,45 @@
+{
+  "experiment_name": "resnet1d_reference",
+  "decision_id": "D-008",
+  "appliance": "kettle",
+  "seed": 42,
+  "best_epoch": 4,
+  "total_epochs_trained": 9,
+  "early_stopping_triggered": true,
+  "train_mean_w": 523.9399710171651,
+  "train_std_w": 764.9068175879584,
+  "best_epoch_metrics": {
+    "epoch": 4,
+    "train_loss": 0.525848,
+    "val_weak_loss": 0.388752,
+    "val_strong_precision": 0.213625,
+    "val_strong_recall": 0.949703,
+    "val_strong_f1": 0.348793,
+    "val_strong_balanced_accuracy": 0.539946,
+    "val_strong_accuracy": 0.293465,
+    "val_strong_tp": 3512,
+    "val_strong_fp": 12928,
+    "val_strong_tn": 1935,
+    "val_strong_fn": 186
+  },
+  "trivial_baseline_reference": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "balanced_accuracy": 0.5,
+    "accuracy": 0.800765,
+    "tp": 0,
+    "fp": 0,
+    "tn": 14863,
+    "fn": 3698,
+    "total_samples": 18561,
+    "name": "majority_class_reference",
+    "majority_class": 0,
+    "positive_target_count": 3698,
+    "negative_target_count": 14863
+  },
+  "checkpoint_paths": {
+    "best_model": "artifacts/experiments/resnet_reference/model_best.pt",
+    "final_model": "artifacts/experiments/resnet_reference/model_final.pt"
+  }
+}

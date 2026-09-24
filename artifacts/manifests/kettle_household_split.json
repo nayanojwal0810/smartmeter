@@ -1,0 +1,377 @@
+{
+  "split_config": {
+    "appliance": "kettle",
+    "split_version": "v1.0.0",
+    "split_name": "primary_household_split_16_2_2",
+    "train_households": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21
+    ],
+    "validation_households": [
+      4,
+      17
+    ],
+    "test_households": [
+      2,
+      13
+    ],
+    "positive_households": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      17,
+      19,
+      20,
+      21
+    ],
+    "unmonitored_households": [
+      1,
+      10,
+      15,
+      16,
+      18
+    ],
+    "rationale": "Strict household-level isolation ensures no temporal, signature, or background power leakage occurs across splits. Model training is weakly supervised using household-level presence only. Holdout test households (H2, H13) are strictly frozen and reserved for final CAM evaluation and error analysis."
+  },
+  "summary": {
+    "total_households": 20,
+    "total_windows": 174072,
+    "total_strong_target_windows": 15837,
+    "splits": {
+      "train": {
+        "split_name": "train",
+        "households_count": 16,
+        "households": [
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21
+        ],
+        "positive_weak_label_households": [
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          19,
+          20,
+          21
+        ],
+        "unmonitored_weak_label_households": [
+          1,
+          10,
+          15,
+          16,
+          18
+        ],
+        "total_windows": 141003,
+        "positive_weak_label_windows": 95727,
+        "unmonitored_weak_label_windows": 45276,
+        "strong_evaluation_eligible_households": [
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          19,
+          20,
+          21
+        ],
+        "strong_evaluation_ineligible_households": [
+          1,
+          10,
+          12,
+          15,
+          16,
+          18
+        ],
+        "strong_kettle_target_windows_count": 9941
+      },
+      "validation": {
+        "split_name": "validation",
+        "households_count": 2,
+        "households": [
+          4,
+          17
+        ],
+        "positive_weak_label_households": [
+          4,
+          17
+        ],
+        "unmonitored_weak_label_households": [],
+        "total_windows": 18561,
+        "positive_weak_label_windows": 18561,
+        "unmonitored_weak_label_windows": 0,
+        "strong_evaluation_eligible_households": [
+          4,
+          17
+        ],
+        "strong_evaluation_ineligible_households": [],
+        "strong_kettle_target_windows_count": 3698
+      },
+      "test": {
+        "split_name": "test",
+        "households_count": 2,
+        "households": [
+          2,
+          13
+        ],
+        "positive_weak_label_households": [
+          2,
+          13
+        ],
+        "unmonitored_weak_label_households": [],
+        "total_windows": 14508,
+        "positive_weak_label_windows": 14508,
+        "unmonitored_weak_label_windows": 0,
+        "strong_evaluation_eligible_households": [
+          2,
+          13
+        ],
+        "strong_evaluation_ineligible_households": [],
+        "strong_kettle_target_windows_count": 2198
+      }
+    }
+  },
+  "households": [
+    {
+      "household_id": 1,
+      "split": "train",
+      "weak_label": 0,
+      "weak_label_name": "Negative (Unmonitored)",
+      "kettle_channel": null,
+      "total_510_windows": 10388,
+      "strong_target_windows": 0,
+      "is_evaluation_eligible": false
+    },
+    {
+      "household_id": 2,
+      "split": "test",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance8",
+      "total_510_windows": 8730,
+      "strong_target_windows": 2053,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 3,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance9",
+      "total_510_windows": 10246,
+      "strong_target_windows": 125,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 4,
+      "split": "validation",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance9",
+      "total_510_windows": 10208,
+      "strong_target_windows": 1441,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 5,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance8",
+      "total_510_windows": 7651,
+      "strong_target_windows": 1798,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 6,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance7",
+      "total_510_windows": 8423,
+      "strong_target_windows": 81,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 7,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance9",
+      "total_510_windows": 10187,
+      "strong_target_windows": 54,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 8,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance9",
+      "total_510_windows": 9362,
+      "strong_target_windows": 2264,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 9,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance7",
+      "total_510_windows": 9154,
+      "strong_target_windows": 2120,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 10,
+      "split": "train",
+      "weak_label": 0,
+      "weak_label_name": "Negative (Unmonitored)",
+      "kettle_channel": null,
+      "total_510_windows": 9120,
+      "strong_target_windows": 0,
+      "is_evaluation_eligible": false
+    },
+    {
+      "household_id": 11,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance7",
+      "total_510_windows": 6807,
+      "strong_target_windows": 1838,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 12,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance6",
+      "total_510_windows": 8758,
+      "strong_target_windows": 0,
+      "is_evaluation_eligible": false
+    },
+    {
+      "household_id": 13,
+      "split": "test",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance9",
+      "total_510_windows": 5778,
+      "strong_target_windows": 145,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 15,
+      "split": "train",
+      "weak_label": 0,
+      "weak_label_name": "Negative (Unmonitored)",
+      "kettle_channel": null,
+      "total_510_windows": 9387,
+      "strong_target_windows": 0,
+      "is_evaluation_eligible": false
+    },
+    {
+      "household_id": 16,
+      "split": "train",
+      "weak_label": 0,
+      "weak_label_name": "Negative (Unmonitored)",
+      "kettle_channel": null,
+      "total_510_windows": 8316,
+      "strong_target_windows": 0,
+      "is_evaluation_eligible": false
+    },
+    {
+      "household_id": 17,
+      "split": "validation",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance8",
+      "total_510_windows": 8353,
+      "strong_target_windows": 2257,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 18,
+      "split": "train",
+      "weak_label": 0,
+      "weak_label_name": "Negative (Unmonitored)",
+      "kettle_channel": null,
+      "total_510_windows": 8065,
+      "strong_target_windows": 0,
+      "is_evaluation_eligible": false
+    },
+    {
+      "household_id": 19,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance5",
+      "total_510_windows": 8253,
+      "strong_target_windows": 57,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 20,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance9",
+      "total_510_windows": 8419,
+      "strong_target_windows": 1595,
+      "is_evaluation_eligible": true
+    },
+    {
+      "household_id": 21,
+      "split": "train",
+      "weak_label": 1,
+      "weak_label_name": "Positive (Presence)",
+      "kettle_channel": "Appliance7",
+      "total_510_windows": 8467,
+      "strong_target_windows": 9,
+      "is_evaluation_eligible": true
+    }
+  ]
+}

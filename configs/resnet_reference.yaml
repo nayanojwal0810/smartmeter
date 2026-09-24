@@ -1,0 +1,46 @@
+# 1D ResNet Reference Model Configuration
+# Standard 3-block 1D ResNet for weakly supervised Kettle detection on REFIT
+#
+# Implementation & Architectural Notes:
+# 1. Binary Head Adaptation: The published CamAL paper describes a 2-class softmax classification head.
+#    Our project intentionally implements a single output logit with BCEWithLogitsLoss and sigmoid-equivalent
+#    decision at threshold 0.5 as defined by our project model-training specification. It is not byte-for-byte
+#    or mathematically identical to the paper's 2-class softmax formulation.
+# 2. Experiment Scope: This is a single ResNet reference-model experiment. It is NOT yet the multi-scale
+#    CamAL ensemble, and Class Activation Map (CAM) localization is NOT yet implemented in this experiment.
+#    The eventual ensemble and localization pipeline will be a separate, downstream experiment.
+
+model:
+  name: "resnet1d_reference"
+  in_channels: 1
+  input_length: 510
+  filter_counts:
+    - 64
+    - 128
+    - 128
+  kernel_sizes:
+    - 8
+    - 5
+    - 3
+  out_features: 1
+
+training:
+  appliance: "kettle"
+  seed: 42
+  batch_size: 256
+  learning_rate: 0.001
+  optimizer: "Adam"
+  weight_decay: 0.0
+  max_epochs: 30
+  early_stopping_patience: 5
+  early_stopping_metric: "val_strong_f1"
+  fixed_threshold: 0.5
+  normalization: "standardize"
+
+data:
+  dataset_version: "v1.0.0"
+  split_config_path: "configs/kettle_household_split.yaml"
+  split_manifest_path: "artifacts/manifests/kettle_household_split.json"
+  evaluation_targets_path: "artifacts/manifests/kettle_evaluation_targets.jsonl"
+  processed_dir: "data/processed/kettle"
+  artifacts_dir: "artifacts/experiments/resnet_reference"

@@ -1,0 +1,79 @@
+# =============================================================================
+# SmartMeter NILM Platform - .gitignore
+# Canonical Source Control Policy
+# =============================================================================
+
+# --- Python & Environment Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Pytest & Testing Artifacts ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# --- IDE & Editor Metadata ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Logs & Temp ---
+*.log
+tmp/
+temp/
+scratch/
+
+# --- Raw & Processed Datasets (External / Drive Storage) ---
+data/raw/
+data/interim/
+data/processed/
+*.npy
+*.npz
+*.7z
+*.zip
+*.tar
+*.tar.gz
+
+# --- PyTorch Model Weights & Checkpoints (Large Binaries) ---
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.h5
+
+# --- Large Generated Manifests / JSONL Artifacts ---
+artifacts/manifests/*.jsonl
+
+# --- Colab Generated ZIP Packages ---
+artifacts/colab/*.zip
+
+# --- Temporary Smoke Test Runs ---
+artifacts/experiments/*_smoke/

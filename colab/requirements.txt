@@ -1,0 +1,7 @@
+# Google Colab / Linux Requirements for SmartMeter 1D ResNet Reference Experiment
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+pyyaml>=6.0.0
+openpyxl>=3.1.0
+pytest>=7.4.0

@@ -1,0 +1,45 @@
+{
+  "experiment_name": "simple_1d_cnn_baseline",
+  "decision_id": "D-008",
+  "appliance": "kettle",
+  "seed": 42,
+  "best_epoch": 1,
+  "total_epochs_trained": 6,
+  "early_stopping_triggered": true,
+  "train_mean_w": 523.939966,
+  "train_std_w": 764.906819,
+  "best_epoch_metrics": {
+    "epoch": 1,
+    "train_loss": 0.620026,
+    "val_weak_loss": 0.342298,
+    "val_strong_precision": 0.199235,
+    "val_strong_recall": 1.0,
+    "val_strong_f1": 0.33227,
+    "val_strong_balanced_accuracy": 0.5,
+    "val_strong_accuracy": 0.199235,
+    "val_strong_tp": 3698,
+    "val_strong_fp": 14863,
+    "val_strong_tn": 0,
+    "val_strong_fn": 0
+  },
+  "trivial_baseline_reference": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "balanced_accuracy": 0.5,
+    "accuracy": 0.800765,
+    "tp": 0,
+    "fp": 0,
+    "tn": 14863,
+    "fn": 3698,
+    "total_samples": 18561,
+    "name": "majority_class_reference",
+    "majority_class": 0,
+    "positive_target_count": 3698,
+    "negative_target_count": 14863
+  },
+  "checkpoint_paths": {
+    "best_model": "artifacts/experiments/cnn_baseline/model_best.pt",
+    "final_model": "artifacts/experiments/cnn_baseline/model_final.pt"
+  }
+}

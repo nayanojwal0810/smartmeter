@@ -1,0 +1,34 @@
+# Decision D-008: Simple 1D CNN Baseline Configuration
+# Deliberately minimal architecture for weakly supervised Kettle detection on REFIT
+
+model:
+  name: "simple_1d_cnn"
+  in_channels: 1
+  input_length: 510
+  conv1_channels: 32
+  conv1_kernel: 9
+  pool_kernel: 2
+  conv2_channels: 64
+  conv2_kernel: 9
+  out_features: 1
+
+training:
+  appliance: "kettle"
+  seed: 42
+  batch_size: 256
+  learning_rate: 0.001
+  optimizer: "Adam"
+  weight_decay: 0.0
+  max_epochs: 30
+  early_stopping_patience: 5
+  early_stopping_metric: "val_strong_f1"
+  fixed_threshold: 0.5
+  normalization: "standardize"
+
+data:
+  dataset_version: "v1.0.0"
+  split_config_path: "configs/kettle_household_split.yaml"
+  split_manifest_path: "artifacts/manifests/kettle_household_split.json"
+  evaluation_targets_path: "artifacts/manifests/kettle_evaluation_targets.jsonl"
+  processed_dir: "data/processed/kettle"
+  artifacts_dir: "artifacts/experiments/cnn_baseline"

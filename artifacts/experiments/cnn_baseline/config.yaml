@@ -1,0 +1,19 @@
+model:
+  conv1_channels: 32
+  conv1_kernel: 9
+  conv2_channels: 64
+  conv2_kernel: 9
+  in_channels: 1
+  input_length: 510
+  name: simple_1d_cnn
+  out_features: 1
+  pool_kernel: 2
+training:
+  batch_size: 32
+  early_stopping_patience: 2
+  fixed_threshold: 0.5
+  learning_rate: 0.001
+  max_epochs: 2
+  normalization: standardize
+  seed: 42
+  weight_decay: 0.0

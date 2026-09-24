@@ -1,0 +1,71 @@
+{
+  "experiment_name": "resnet1d_reference",
+  "decision_id": "D-008",
+  "appliance": "kettle",
+  "run_date": "2026-09-24",
+  "compute_environment": "Google Colab",
+  "gpu_device": "Tesla T4",
+  "colab_bundle_sha256": "3a668715bb1f92b713d43942e241fdce921272a278ae930de26e4879aab5ba1c",
+  "artifact_hashes": {
+    "model_best.pt": {
+      "sha256": "cd38f731d7b841cd3f66b99d58893f86e9eee0ee3b8316004da5c09b4b1b64c9",
+      "size_bytes": 6103561
+    },
+    "model_final.pt": {
+      "sha256": "99375796233f3cf4f99a4be9afd64254cfd31f2dd0dafb3050fe7b49e05cab79",
+      "size_bytes": 2048132
+    },
+    "metrics.json": {
+      "sha256": "0aef06ba68223a5a0151a7dfa35780ee68412439c81aab2e9ba98ed19cc7531a",
+      "size_bytes": 1218
+    },
+    "training_curves.json": {
+      "sha256": "de63c92dec469d3c85c4dfed71208e7dfde6851f9ec0ee4bdbd7d2a930d605a3",
+      "size_bytes": 3398
+    },
+    "config.yaml": {
+      "sha256": "d64b3af3a05d09d8b5ccab9a6c8b72103b6ffba9b936146bfb8cd9ec5b0faa44",
+      "size_bytes": 754
+    },
+    "normalization_stats.json": {
+      "sha256": "4ddf812d3fbf11f781d063bc4a2ce2471ebc5613792cc2bd3fada20c664bc0c4",
+      "size_bytes": 168
+    },
+    "trivial_baseline.json": {
+      "sha256": "8bd668a071ce4a6dd7b1a7bff5bafee9c4b6c0ab523a9a8250b50a7f6236df3b",
+      "size_bytes": 309
+    },
+    "resnet_report.md": {
+      "sha256": "fca43bd51081cda1a43aedc62be57548c99a8c9231b4d95e7cca2502d18be048",
+      "size_bytes": 2449
+    }
+  },
+  "training_summary": {
+    "seed": 42,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "max_epochs": 30,
+    "early_stopping_patience": 5,
+    "total_epochs_trained": 9,
+    "early_stopping_triggered": true,
+    "best_epoch": 4,
+    "best_validation_f1": 0.348793,
+    "best_validation_balanced_accuracy": 0.539946,
+    "best_validation_precision": 0.213625,
+    "best_validation_recall": 0.949703,
+    "evaluation_threshold": 0.5,
+    "train_normalization_mean_w": 523.9399710171651,
+    "train_normalization_std_w": 764.9068175879584
+  },
+  "policy_compliance": {
+    "test_set_sealed": true,
+    "test_households_isolated": [
+      "H2",
+      "H13"
+    ],
+    "strong_targets_evaluation_only": true,
+    "aggregate_only_inputs": true,
+    "provenance_note": "These imported artifacts represent the completed training run executed on Google Colab (Tesla T4 GPU) on 2026-09-24. They are authoritative completed experiment outputs and were not retrained locally."
+  }
+}

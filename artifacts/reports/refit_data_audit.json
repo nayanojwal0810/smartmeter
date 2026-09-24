@@ -1,0 +1,4776 @@
+{
+  "overview": {
+    "total_households": 20,
+    "total_size_bytes": 6943411063,
+    "total_size_gb": 6.467,
+    "total_rows": 119495879,
+    "total_issues_1_rows": 2037863,
+    "overall_issues_pct": 1.7054,
+    "all_headers_valid": true,
+    "all_monotonic": true
+  },
+  "aggregate_sampling_gaps": {
+    "total_intervals": 119495859,
+    "le_8s_pct": 80.21,
+    "between_9_15s_pct": 19.34,
+    "gt_15s_pct": 0.44,
+    "gt_30s_pct": 0.13,
+    "gt_60s_pct": 0.05,
+    "gt_120s_pct": 0.01,
+    "max_gap_seconds": 5358903.0
+  },
+  "appliance_presence_summary": {
+    "Washing Machine": {
+      "household_count": 18,
+      "households": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    "Microwave": {
+      "household_count": 17,
+      "households": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        13,
+        15,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "Television Site": {
+      "household_count": 16,
+      "households": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "Dishwasher": {
+      "household_count": 15,
+      "households": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21
+      ]
+    },
+    "Kettle": {
+      "household_count": 15,
+      "households": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        17,
+        19,
+        20,
+        21
+      ]
+    },
+    "Fridge-Freezer": {
+      "household_count": 12,
+      "households": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12,
+        15,
+        17,
+        18,
+        21
+      ]
+    },
+    "Toaster": {
+      "household_count": 10,
+      "households": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        15,
+        19
+      ]
+    },
+    "Freezer": {
+      "household_count": 7,
+      "households": [
+        3,
+        4,
+        6,
+        8,
+        13,
+        17,
+        20
+      ]
+    },
+    "Tumble Dryer": {
+      "household_count": 7,
+      "households": [
+        3,
+        5,
+        7,
+        15,
+        17,
+        20,
+        21
+      ]
+    },
+    "Fridge": {
+      "household_count": 6,
+      "households": [
+        1,
+        4,
+        7,
+        8,
+        11,
+        20
+      ]
+    },
+    "Computer Site": {
+      "household_count": 6,
+      "households": [
+        11,
+        12,
+        15,
+        16,
+        17,
+        20
+      ]
+    },
+    "Hi-Fi": {
+      "household_count": 5,
+      "households": [
+        2,
+        9,
+        11,
+        15,
+        19
+      ]
+    },
+    "???": {
+      "household_count": 4,
+      "households": [
+        12,
+        12,
+        12,
+        13
+      ]
+    },
+    "Washer Dryer": {
+      "household_count": 3,
+      "households": [
+        1,
+        8,
+        9
+      ]
+    },
+    "Desktop Computer": {
+      "household_count": 3,
+      "households": [
+        4,
+        5,
+        18
+      ]
+    },
+    "Freezer(1)": {
+      "household_count": 2,
+      "households": [
+        1,
+        7
+      ]
+    },
+    "Freezer(2)": {
+      "household_count": 2,
+      "households": [
+        1,
+        7
+      ]
+    },
+    "Computer": {
+      "household_count": 2,
+      "households": [
+        1,
+        8
+      ]
+    },
+    "Electric Heater": {
+      "household_count": 2,
+      "households": [
+        1,
+        9
+      ]
+    },
+    "Television": {
+      "household_count": 2,
+      "households": [
+        12,
+        21
+      ]
+    },
+    "Overhead Fan": {
+      "household_count": 1,
+      "households": [
+        2
+      ]
+    },
+    "Washing Machine(1)": {
+      "household_count": 1,
+      "households": [
+        4
+      ]
+    },
+    "Washing Machine(2)": {
+      "household_count": 1,
+      "households": [
+        4
+      ]
+    },
+    "MJY Computer": {
+      "household_count": 1,
+      "households": [
+        6
+      ]
+    },
+    "TV/Satellite": {
+      "household_count": 1,
+      "households": [
+        6
+      ]
+    },
+    "PGM Computer": {
+      "household_count": 1,
+      "households": [
+        6
+      ]
+    },
+    "Magimix(Blender)": {
+      "household_count": 1,
+      "households": [
+        10
+      ]
+    },
+    "Chest Freezer": {
+      "household_count": 1,
+      "households": [
+        10
+      ]
+    },
+    "K Mix": {
+      "household_count": 1,
+      "households": [
+        10
+      ]
+    },
+    "Router": {
+      "household_count": 1,
+      "households": [
+        11
+      ]
+    },
+    "Network Site": {
+      "household_count": 1,
+      "households": [
+        13
+      ]
+    },
+    "Fridge-Freezer(1)": {
+      "household_count": 1,
+      "households": [
+        16
+      ]
+    },
+    "Fridge-Freezer(2)": {
+      "household_count": 1,
+      "households": [
+        16
+      ]
+    },
+    "Electric Heater(1)": {
+      "household_count": 1,
+      "households": [
+        16
+      ]
+    },
+    "Electric Heater(2)": {
+      "household_count": 1,
+      "households": [
+        16
+      ]
+    },
+    "Dehumidifier": {
+      "household_count": 1,
+      "households": [
+        16
+      ]
+    },
+    "TV Site(Bedroom)": {
+      "household_count": 1,
+      "households": [
+        17
+      ]
+    },
+    "Fridge(garage)": {
+      "household_count": 1,
+      "households": [
+        18
+      ]
+    },
+    "Freezer(garage)": {
+      "household_count": 1,
+      "households": [
+        18
+      ]
+    },
+    "Washer Dryer(garage)": {
+      "household_count": 1,
+      "households": [
+        18
+      ]
+    },
+    "Fridge Freezer": {
+      "household_count": 1,
+      "households": [
+        19
+      ]
+    },
+    "Bread-maker": {
+      "household_count": 1,
+      "households": [
+        19
+      ]
+    },
+    "Games Console": {
+      "household_count": 1,
+      "households": [
+        19
+      ]
+    },
+    "Food Mixer": {
+      "household_count": 1,
+      "households": [
+        21
+      ]
+    },
+    "Vivarium": {
+      "household_count": 1,
+      "households": [
+        21
+      ]
+    },
+    "Pond Pump": {
+      "household_count": 1,
+      "households": [
+        21
+      ]
+    }
+  },
+  "households": [
+    {
+      "household_id": 1,
+      "filename": "CLEAN_House1.csv",
+      "file_size_bytes": 400840083,
+      "total_rows": 6960008,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-10-09 13:06:17",
+      "max_datetime": "2015-07-10 11:56:32",
+      "min_unix": 1381323977,
+      "max_unix": 1436529392,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 6960007,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 3594413.0,
+        "le_8s_count": 5312034,
+        "le_8s_pct": 76.32,
+        "between_9_15s_count": 1628325,
+        "between_9_15s_pct": 23.4,
+        "gt_15s_count": 19648,
+        "gt_15s_pct": 0.28,
+        "gt_30s_count": 4458,
+        "gt_30s_pct": 0.06,
+        "gt_60s_count": 3440,
+        "gt_60s_pct": 0.05,
+        "gt_120s_count": 659,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 6960008,
+        "mean_val": 481.138,
+        "min_val": 0.0,
+        "max_val": 29159.0,
+        "zero_count": 44,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 35047,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 6960008,
+          "mean_val": 17.538,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5348680,
+          "zero_pct": 76.85,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 6960008,
+          "mean_val": 16.55,
+          "min_val": 0.0,
+          "max_val": 3452.0,
+          "zero_count": 4564654,
+          "zero_pct": 65.58,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 6960008,
+          "mean_val": 29.009,
+          "min_val": 0.0,
+          "max_val": 3657.0,
+          "zero_count": 4159666,
+          "zero_pct": 59.77,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 6960008,
+          "mean_val": 1.844,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 6931891,
+          "zero_pct": 99.6,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 6960008,
+          "mean_val": 11.029,
+          "min_val": 0.0,
+          "max_val": 3072.0,
+          "zero_count": 6803776,
+          "zero_pct": 97.76,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 6960008,
+          "mean_val": 11.165,
+          "min_val": 0.0,
+          "max_val": 2525.0,
+          "zero_count": 6894736,
+          "zero_pct": 99.06,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 6960008,
+          "mean_val": 2.473,
+          "min_val": 0.0,
+          "max_val": 2094.0,
+          "zero_count": 6203369,
+          "zero_pct": 89.13,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 6960008,
+          "mean_val": 5.803,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5686109,
+          "zero_pct": 81.7,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 6960008,
+          "mean_val": 69.475,
+          "min_val": 0.0,
+          "max_val": 2119.0,
+          "zero_count": 60673,
+          "zero_pct": 0.87,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 6960008,
+        "count_1": 58183,
+        "count_0": 6901825,
+        "count_invalid": 0,
+        "pct_1": 0.836
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge",
+          "make": "Hotpoint",
+          "model": "RLA50P"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Freezer(1)",
+          "make": "Beko",
+          "model": "CF393APW"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Freezer(2)",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Washer Dryer",
+          "make": "Creda",
+          "model": "T522VW"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Washing Machine",
+          "make": "Beko",
+          "model": "WMC6140"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Dishwasher",
+          "make": "Bosch",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Computer",
+          "make": "Lenovo",
+          "model": "H520s"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Television Site",
+          "make": "Toshiba",
+          "model": "32BL502b"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Electric Heater",
+          "make": "GLEN",
+          "model": "2172"
+        }
+      }
+    },
+    {
+      "household_id": 2,
+      "filename": "CLEAN_House2.csv",
+      "file_size_bytes": 325391201,
+      "total_rows": 5733526,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-09-17 22:08:11",
+      "max_datetime": "2015-05-28 08:05:43",
+      "min_unix": 1379455691,
+      "max_unix": 1432800343,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 5733525,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 5358903.0,
+        "le_8s_count": 4491532,
+        "le_8s_pct": 78.34,
+        "between_9_15s_count": 1220688,
+        "between_9_15s_pct": 21.29,
+        "gt_15s_count": 21305,
+        "gt_15s_pct": 0.37,
+        "gt_30s_count": 7652,
+        "gt_30s_pct": 0.13,
+        "gt_60s_count": 2305,
+        "gt_60s_pct": 0.04,
+        "gt_120s_count": 597,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 5733526,
+        "mean_val": 465.102,
+        "min_val": 0.0,
+        "max_val": 24595.0,
+        "zero_count": 75,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 61252,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 5733526,
+          "mean_val": 35.768,
+          "min_val": 0.0,
+          "max_val": 1690.0,
+          "zero_count": 50,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 5733526,
+          "mean_val": 18.269,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5413660,
+          "zero_pct": 94.42,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 5733526,
+          "mean_val": 61.545,
+          "min_val": 0.0,
+          "max_val": 3092.0,
+          "zero_count": 5274850,
+          "zero_pct": 92.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 5733526,
+          "mean_val": 3.966,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5207963,
+          "zero_pct": 90.83,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 5733526,
+          "mean_val": 3.278,
+          "min_val": 0.0,
+          "max_val": 3072.0,
+          "zero_count": 5691425,
+          "zero_pct": 99.27,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 5733526,
+          "mean_val": 1.549,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 5715816,
+          "zero_pct": 99.69,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 5733526,
+          "mean_val": 1.733,
+          "min_val": 0.0,
+          "max_val": 3040.0,
+          "zero_count": 5116204,
+          "zero_pct": 89.23,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 5733526,
+          "mean_val": 23.155,
+          "min_val": 0.0,
+          "max_val": 3729.0,
+          "zero_count": 5674605,
+          "zero_pct": 98.97,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 5733526,
+          "mean_val": 0.369,
+          "min_val": 0.0,
+          "max_val": 2048.0,
+          "zero_count": 5698383,
+          "zero_pct": 99.39,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 5733526,
+        "count_1": 28444,
+        "count_0": 5705082,
+        "count_invalid": 0,
+        "pct_1": 0.4961
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge-Freezer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Washing Machine",
+          "make": "LG",
+          "model": "F1289TD"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Dishwasher",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Television Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Microwave",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Toaster",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Hi-Fi",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Kettle",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Overhead Fan",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 3,
+      "filename": "CLEAN_House3.csv",
+      "file_size_bytes": 407273065,
+      "total_rows": 6994594,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-09-25 19:21:09",
+      "max_datetime": "2015-06-02 10:55:42",
+      "min_unix": 1380136869,
+      "max_unix": 1433242542,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 6994593,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 3594416.0,
+        "le_8s_count": 5400400,
+        "le_8s_pct": 77.21,
+        "between_9_15s_count": 1575810,
+        "between_9_15s_pct": 22.53,
+        "gt_15s_count": 18383,
+        "gt_15s_pct": 0.26,
+        "gt_30s_count": 4471,
+        "gt_30s_pct": 0.06,
+        "gt_60s_count": 3407,
+        "gt_60s_pct": 0.05,
+        "gt_120s_count": 369,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 6994594,
+        "mean_val": 678.462,
+        "min_val": 0.0,
+        "max_val": 65836.0,
+        "zero_count": 50,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 85622,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 6994594,
+          "mean_val": 1.683,
+          "min_val": 0.0,
+          "max_val": 2201.0,
+          "zero_count": 6979897,
+          "zero_pct": 99.79,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 6994594,
+          "mean_val": 53.158,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 3274313,
+          "zero_pct": 46.81,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 6994594,
+          "mean_val": 36.26,
+          "min_val": 0.0,
+          "max_val": 2140.0,
+          "zero_count": 4160564,
+          "zero_pct": 59.48,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 6994594,
+          "mean_val": 55.297,
+          "min_val": 0.0,
+          "max_val": 2820.0,
+          "zero_count": 6712892,
+          "zero_pct": 95.97,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 6994594,
+          "mean_val": 49.065,
+          "min_val": 0.0,
+          "max_val": 3840.0,
+          "zero_count": 6308863,
+          "zero_pct": 90.2,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 6994594,
+          "mean_val": 28.922,
+          "min_val": 0.0,
+          "max_val": 2746.0,
+          "zero_count": 6524524,
+          "zero_pct": 93.28,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 6994594,
+          "mean_val": 48.445,
+          "min_val": 0.0,
+          "max_val": 3728.0,
+          "zero_count": 4580518,
+          "zero_pct": 65.49,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 6994594,
+          "mean_val": 2.721,
+          "min_val": 0.0,
+          "max_val": 2848.0,
+          "zero_count": 6935727,
+          "zero_pct": 99.16,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 6994594,
+          "mean_val": 19.649,
+          "min_val": 0.0,
+          "max_val": 2277.0,
+          "zero_count": 6905931,
+          "zero_pct": 98.73,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 6994594,
+        "count_1": 408627,
+        "count_0": 6585967,
+        "count_invalid": 0,
+        "pct_1": 5.842
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Toaster",
+          "make": "Dualit",
+          "model": "DPP2"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Fridge-Freezer",
+          "make": "Whirlpool",
+          "model": "ARC7612"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Freezer",
+          "make": "Frigidaire",
+          "model": "Freezer Elite"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Tumble Dryer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Dishwasher",
+          "make": "Bosch",
+          "model": "Exxcel Auto Option"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Washing Machine",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Television Site",
+          "make": "Samsung",
+          "model": "LE46A656A1FXXU"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Microwave",
+          "make": "Panasoinc",
+          "model": "NN-CT565MBPQ"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Kettle",
+          "make": "Dualit",
+          "model": "JKt3"
+        }
+      }
+    },
+    {
+      "household_id": 4,
+      "filename": "CLEAN_House4.csv",
+      "file_size_bytes": 395763806,
+      "total_rows": 6760511,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-10-11 10:19:17",
+      "max_datetime": "2015-07-07 09:57:38",
+      "min_unix": 1381486757,
+      "max_unix": 1436263058,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 6760510,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 1215817.0,
+        "le_8s_count": 5135589,
+        "le_8s_pct": 75.96,
+        "between_9_15s_count": 1593043,
+        "between_9_15s_pct": 23.56,
+        "gt_15s_count": 31878,
+        "gt_15s_pct": 0.47,
+        "gt_30s_count": 5124,
+        "gt_30s_pct": 0.08,
+        "gt_60s_count": 3918,
+        "gt_60s_pct": 0.06,
+        "gt_120s_count": 1229,
+        "gt_120s_pct": 0.02,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 6760511,
+        "mean_val": 381.216,
+        "min_val": 0.0,
+        "max_val": 65663.0,
+        "zero_count": 58,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 7841,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 6760511,
+          "mean_val": 9.831,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 5468943,
+          "zero_pct": 80.9,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 6760511,
+          "mean_val": 61.181,
+          "min_val": 0.0,
+          "max_val": 3791.0,
+          "zero_count": 3813362,
+          "zero_pct": 56.41,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 6760511,
+          "mean_val": 37.354,
+          "min_val": 0.0,
+          "max_val": 3717.0,
+          "zero_count": 4768855,
+          "zero_pct": 70.54,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 6760511,
+          "mean_val": 4.208,
+          "min_val": 0.0,
+          "max_val": 3100.0,
+          "zero_count": 6255383,
+          "zero_pct": 92.53,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 6760511,
+          "mean_val": 10.583,
+          "min_val": 0.0,
+          "max_val": 2728.0,
+          "zero_count": 6646094,
+          "zero_pct": 98.31,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 6760511,
+          "mean_val": 13.655,
+          "min_val": 0.0,
+          "max_val": 2059.0,
+          "zero_count": 1039390,
+          "zero_pct": 15.37,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 6760511,
+          "mean_val": 23.239,
+          "min_val": 0.0,
+          "max_val": 2548.0,
+          "zero_count": 3997571,
+          "zero_pct": 59.13,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 6760511,
+          "mean_val": 9.577,
+          "min_val": 0.0,
+          "max_val": 3592.0,
+          "zero_count": 620563,
+          "zero_pct": 9.18,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 6760511,
+          "mean_val": 10.722,
+          "min_val": 0.0,
+          "max_val": 2560.0,
+          "zero_count": 6717870,
+          "zero_pct": 99.37,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 6760511,
+        "count_1": 67441,
+        "count_0": 6693070,
+        "count_invalid": 0,
+        "pct_1": 0.9976
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge",
+          "make": "Neff",
+          "model": "K1514X0GB/31"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Freezer",
+          "make": "Ocean",
+          "model": "UF 1025"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Fridge-Freezer",
+          "make": "Ariston",
+          "model": "DF230"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Washing Machine(1)",
+          "make": "Servis",
+          "model": "6065"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Washing Machine(2)",
+          "make": "Zanussi",
+          "model": "Z917"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Desktop Computer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Television Site",
+          "make": "Sony",
+          "model": "KDL-32W706B"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Microwave",
+          "make": "Matsui",
+          "model": "170TC"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Kettle",
+          "make": "Swan",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 5,
+      "filename": "CLEAN_House5.csv",
+      "file_size_bytes": 435272416,
+      "total_rows": 7430755,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-09-26 09:56:09",
+      "max_datetime": "2015-07-06 17:48:55",
+      "min_unix": 1380189369,
+      "max_unix": 1436204935,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 7430754,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 747249.0,
+        "le_8s_count": 5865683,
+        "le_8s_pct": 78.94,
+        "between_9_15s_count": 1482575,
+        "between_9_15s_pct": 19.95,
+        "gt_15s_count": 82496,
+        "gt_15s_pct": 1.11,
+        "gt_30s_count": 13810,
+        "gt_30s_pct": 0.19,
+        "gt_60s_count": 3973,
+        "gt_60s_pct": 0.05,
+        "gt_120s_count": 1258,
+        "gt_120s_pct": 0.02,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 7430755,
+        "mean_val": 738.147,
+        "min_val": 0.0,
+        "max_val": 41738.0,
+        "zero_count": 7,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 83681,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 7430755,
+          "mean_val": 59.964,
+          "min_val": 0.0,
+          "max_val": 2807.0,
+          "zero_count": 54,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 7430755,
+          "mean_val": 84.53,
+          "min_val": 0.0,
+          "max_val": 3922.0,
+          "zero_count": 6070415,
+          "zero_pct": 81.69,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 7430755,
+          "mean_val": 31.361,
+          "min_val": 0.0,
+          "max_val": 2437.0,
+          "zero_count": 3845800,
+          "zero_pct": 51.76,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 7430755,
+          "mean_val": 57.955,
+          "min_val": 0.0,
+          "max_val": 2653.0,
+          "zero_count": 5065883,
+          "zero_pct": 68.17,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 7430755,
+          "mean_val": 42.148,
+          "min_val": 0.0,
+          "max_val": 3073.0,
+          "zero_count": 739798,
+          "zero_pct": 9.96,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 7430755,
+          "mean_val": 15.84,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5898385,
+          "zero_pct": 79.38,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 7430755,
+          "mean_val": 27.366,
+          "min_val": 0.0,
+          "max_val": 2919.0,
+          "zero_count": 6812209,
+          "zero_pct": 91.68,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 7430755,
+          "mean_val": 22.316,
+          "min_val": 0.0,
+          "max_val": 3856.0,
+          "zero_count": 7360231,
+          "zero_pct": 99.05,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 7430755,
+          "mean_val": 6.077,
+          "min_val": 0.0,
+          "max_val": 2688.0,
+          "zero_count": 7397894,
+          "zero_pct": 99.56,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 7430755,
+        "count_1": 425766,
+        "count_0": 7004989,
+        "count_invalid": 0,
+        "pct_1": 5.7298
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge-Freezer",
+          "make": "Fisher & Paykel",
+          "model": "Unknown"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Tumble Dryer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Washing Machine",
+          "make": "AEG",
+          "model": "L99695HWD"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Dishwasher",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Desktop Computer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Television Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Microwave",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Kettle",
+          "make": "Logik",
+          "model": "L17SKC14"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Toaster",
+          "make": "Breville",
+          "model": "TT33"
+        }
+      }
+    },
+    {
+      "household_id": 6,
+      "filename": "CLEAN_House6.csv",
+      "file_size_bytes": 366398284,
+      "total_rows": 6241971,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-11-28 12:15:35",
+      "max_datetime": "2015-06-28 22:14:45",
+      "min_unix": 1385640935,
+      "max_unix": 1435529685,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 6241970,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 2898999.0,
+        "le_8s_count": 4885891,
+        "le_8s_pct": 78.27,
+        "between_9_15s_count": 1324210,
+        "between_9_15s_pct": 21.21,
+        "gt_15s_count": 31869,
+        "gt_15s_pct": 0.51,
+        "gt_30s_count": 6681,
+        "gt_30s_pct": 0.11,
+        "gt_60s_count": 5030,
+        "gt_60s_pct": 0.08,
+        "gt_120s_count": 469,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 6241971,
+        "mean_val": 482.888,
+        "min_val": 0.0,
+        "max_val": 32756.0,
+        "zero_count": 339,
+        "zero_pct": 0.01,
+        "negative_count": 0,
+        "above_4000_count": 6923,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 6241971,
+          "mean_val": 20.032,
+          "min_val": 0.0,
+          "max_val": 3640.0,
+          "zero_count": 4099357,
+          "zero_pct": 65.67,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 6241971,
+          "mean_val": 7.12,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 6089983,
+          "zero_pct": 97.57,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 6241971,
+          "mean_val": 10.752,
+          "min_val": 0.0,
+          "max_val": 2728.0,
+          "zero_count": 6133444,
+          "zero_pct": 98.26,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 6241971,
+          "mean_val": 66.206,
+          "min_val": 0.0,
+          "max_val": 3963.0,
+          "zero_count": 96,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 6241971,
+          "mean_val": 38.381,
+          "min_val": 0.0,
+          "max_val": 3806.0,
+          "zero_count": 537705,
+          "zero_pct": 8.61,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 6241971,
+          "mean_val": 8.165,
+          "min_val": 0.0,
+          "max_val": 2689.0,
+          "zero_count": 194,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 6241971,
+          "mean_val": 23.631,
+          "min_val": 0.0,
+          "max_val": 2820.0,
+          "zero_count": 6174649,
+          "zero_pct": 98.92,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 6241971,
+          "mean_val": 2.935,
+          "min_val": 0.0,
+          "max_val": 2560.0,
+          "zero_count": 6212732,
+          "zero_pct": 99.53,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 6241971,
+          "mean_val": 13.809,
+          "min_val": 0.0,
+          "max_val": 3592.0,
+          "zero_count": 234503,
+          "zero_pct": 3.76,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 6241971,
+        "count_1": 34451,
+        "count_0": 6207520,
+        "count_invalid": 0,
+        "pct_1": 0.5519
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Freezer",
+          "make": "Whirlpool",
+          "model": "CV128W"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Washing Machine",
+          "make": "Bosch",
+          "model": "Classixx 1200 Express"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Dishwasher",
+          "make": "Neff",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "MJY Computer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "TV/Satellite",
+          "make": "Samsung",
+          "model": "UE55F6500SB"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Microwave",
+          "make": "Neff",
+          "model": "H5642N0GB/02"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Kettle",
+          "make": "ASDA",
+          "model": "GPK101W"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Toaster",
+          "make": "Breville",
+          "model": "PT15"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "PGM Computer",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 7,
+      "filename": "CLEAN_House7.csv",
+      "file_size_bytes": 388975788,
+      "total_rows": 6756034,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-11-01 22:01:18",
+      "max_datetime": "2015-07-08 02:10:54",
+      "min_unix": 1383343278,
+      "max_unix": 1436321454,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 6756033,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 3594415.0,
+        "le_8s_count": 5219720,
+        "le_8s_pct": 77.26,
+        "between_9_15s_count": 1513816,
+        "between_9_15s_pct": 22.41,
+        "gt_15s_count": 22497,
+        "gt_15s_pct": 0.33,
+        "gt_30s_count": 8171,
+        "gt_30s_pct": 0.12,
+        "gt_60s_count": 2846,
+        "gt_60s_pct": 0.04,
+        "gt_120s_count": 367,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 6756034,
+        "mean_val": 565.882,
+        "min_val": 0.0,
+        "max_val": 32730.0,
+        "zero_count": 326,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 67170,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 6756034,
+          "mean_val": 15.637,
+          "min_val": 0.0,
+          "max_val": 2948.0,
+          "zero_count": 5313646,
+          "zero_pct": 78.65,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 6756034,
+          "mean_val": 45.08,
+          "min_val": 0.0,
+          "max_val": 3842.0,
+          "zero_count": 102,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 6756034,
+          "mean_val": 1.373,
+          "min_val": 0.0,
+          "max_val": 3072.0,
+          "zero_count": 6650082,
+          "zero_pct": 98.43,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 6756034,
+          "mean_val": 72.697,
+          "min_val": 0.0,
+          "max_val": 3630.0,
+          "zero_count": 6518797,
+          "zero_pct": 96.49,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 6756034,
+          "mean_val": 38.152,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5673418,
+          "zero_pct": 83.98,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 6756034,
+          "mean_val": 63.612,
+          "min_val": 0.0,
+          "max_val": 3008.0,
+          "zero_count": 6012861,
+          "zero_pct": 89.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 6756034,
+          "mean_val": 11.089,
+          "min_val": 0.0,
+          "max_val": 2560.0,
+          "zero_count": 4648771,
+          "zero_pct": 68.81,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 6756034,
+          "mean_val": 2.706,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 6734026,
+          "zero_pct": 99.67,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 6756034,
+          "mean_val": 8.84,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 6725088,
+          "zero_pct": 99.54,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 6756034,
+        "count_1": 161919,
+        "count_0": 6594115,
+        "count_invalid": 0,
+        "pct_1": 2.3967
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge",
+          "make": "Bosch",
+          "model": "KSR30422GB"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Freezer(1)",
+          "make": "Whirlpool",
+          "model": "AFG 392/H"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Freezer(2)",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Tumble Dryer",
+          "make": "White Knight",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Washing Machine",
+          "make": "Bosch",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Dishwasher",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Television Site",
+          "make": "",
+          "model": ""
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Toaster",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Kettle",
+          "make": "Sainsburys",
+          "model": "121988254"
+        }
+      }
+    },
+    {
+      "household_id": 8,
+      "filename": "CLEAN_House8.csv",
+      "file_size_bytes": 355439146,
+      "total_rows": 6118469,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-11-01 22:13:18",
+      "max_datetime": "2015-05-10 23:36:10",
+      "min_unix": 1383343998,
+      "max_unix": 1431300970,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 6118468,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 3376487.0,
+        "le_8s_count": 4588316,
+        "le_8s_pct": 74.99,
+        "between_9_15s_count": 1506317,
+        "between_9_15s_pct": 24.62,
+        "gt_15s_count": 23835,
+        "gt_15s_pct": 0.39,
+        "gt_30s_count": 8436,
+        "gt_30s_pct": 0.14,
+        "gt_60s_count": 3016,
+        "gt_60s_pct": 0.05,
+        "gt_120s_count": 323,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 6118469,
+        "mean_val": 685.615,
+        "min_val": 0.0,
+        "max_val": 25358.0,
+        "zero_count": 47,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 119119,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 6118469,
+          "mean_val": 8.839,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 4937879,
+          "zero_pct": 80.7,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 6118469,
+          "mean_val": 21.92,
+          "min_val": 0.0,
+          "max_val": 2730.0,
+          "zero_count": 4445729,
+          "zero_pct": 72.66,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 6118469,
+          "mean_val": 5.998,
+          "min_val": 0.0,
+          "max_val": 3044.0,
+          "zero_count": 4466953,
+          "zero_pct": 73.01,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 6118469,
+          "mean_val": 29.434,
+          "min_val": 0.0,
+          "max_val": 3972.0,
+          "zero_count": 5140709,
+          "zero_pct": 84.02,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 6118469,
+          "mean_val": 1.938,
+          "min_val": 0.0,
+          "max_val": 2432.0,
+          "zero_count": 6101526,
+          "zero_pct": 99.72,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 6118469,
+          "mean_val": 19.467,
+          "min_val": 0.0,
+          "max_val": 3783.0,
+          "zero_count": 70,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 6118469,
+          "mean_val": 25.374,
+          "min_val": 0.0,
+          "max_val": 2730.0,
+          "zero_count": 625,
+          "zero_pct": 0.01,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 6118469,
+          "mean_val": 9.887,
+          "min_val": 0.0,
+          "max_val": 3778.0,
+          "zero_count": 179,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 6118469,
+          "mean_val": 20.73,
+          "min_val": 0.0,
+          "max_val": 3840.0,
+          "zero_count": 6064270,
+          "zero_pct": 99.11,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 6118469,
+        "count_1": 25000,
+        "count_0": 6093469,
+        "count_invalid": 0,
+        "pct_1": 0.4086
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge",
+          "make": "Liebherr",
+          "model": "KP2620"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Freezer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Washer Dryer",
+          "make": "Zanussi",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Washing Machine",
+          "make": "",
+          "model": ""
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Toaster",
+          "make": "Bosch",
+          "model": "TAT6101GB/02"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Computer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Television Site",
+          "make": "Sony",
+          "model": "KDL-32V2000"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Microwave",
+          "make": "Panasoinc",
+          "model": "NN-CT565MBPQ"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Kettle",
+          "make": "Morphy Richards",
+          "model": "43615"
+        }
+      }
+    },
+    {
+      "household_id": 9,
+      "filename": "CLEAN_House9.csv",
+      "file_size_bytes": 358228620,
+      "total_rows": 6169525,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-12-17 17:26:20",
+      "max_datetime": "2015-07-08 18:52:50",
+      "min_unix": 1387301180,
+      "max_unix": 1436381570,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 6169524,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 3594413.0,
+        "le_8s_count": 5027778,
+        "le_8s_pct": 81.49,
+        "between_9_15s_count": 1120431,
+        "between_9_15s_pct": 18.16,
+        "gt_15s_count": 21315,
+        "gt_15s_pct": 0.35,
+        "gt_30s_count": 8069,
+        "gt_30s_pct": 0.13,
+        "gt_60s_count": 2764,
+        "gt_60s_pct": 0.04,
+        "gt_120s_count": 316,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 6169525,
+        "mean_val": 576.05,
+        "min_val": 0.0,
+        "max_val": 28836.0,
+        "zero_count": 22,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 101879,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 6169525,
+          "mean_val": 46.687,
+          "min_val": 0.0,
+          "max_val": 3106.0,
+          "zero_count": 2995503,
+          "zero_pct": 48.55,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 6169525,
+          "mean_val": 37.829,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5936949,
+          "zero_pct": 96.23,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 6169525,
+          "mean_val": 15.135,
+          "min_val": 0.0,
+          "max_val": 2484.0,
+          "zero_count": 5595690,
+          "zero_pct": 90.7,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 6169525,
+          "mean_val": 48.107,
+          "min_val": 0.0,
+          "max_val": 3072.0,
+          "zero_count": 5745241,
+          "zero_pct": 93.12,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 6169525,
+          "mean_val": 26.391,
+          "min_val": 0.0,
+          "max_val": 2993.0,
+          "zero_count": 44,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 6169525,
+          "mean_val": 1.566,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 6158789,
+          "zero_pct": 99.83,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 6169525,
+          "mean_val": 27.247,
+          "min_val": 0.0,
+          "max_val": 3072.0,
+          "zero_count": 6098228,
+          "zero_pct": 98.84,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 6169525,
+          "mean_val": 6.604,
+          "min_val": 0.0,
+          "max_val": 2053.0,
+          "zero_count": 50313,
+          "zero_pct": 0.82,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 6169525,
+          "mean_val": 8.327,
+          "min_val": 0.0,
+          "max_val": 2144.0,
+          "zero_count": 6072872,
+          "zero_pct": 98.43,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 6169525,
+        "count_1": 32226,
+        "count_0": 6137299,
+        "count_invalid": 0,
+        "pct_1": 0.5223
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge-Freezer",
+          "make": "Bosch",
+          "model": "KGH34X05GB/05"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Washer Dryer",
+          "make": "Hotpoint",
+          "model": "TCM580"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Washing Machine",
+          "make": "Bosch",
+          "model": "Classixx 6 1200 Express"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Dishwasher",
+          "make": "Bosch",
+          "model": "Classixx"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Television Site",
+          "make": "LG",
+          "model": "32LH3000"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Microwave",
+          "make": "Argos",
+          "model": "MM717CFA"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Kettle",
+          "make": "Russel Hobbs",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Hi-Fi",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Electric Heater",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 10,
+      "filename": "CLEAN_House10.csv",
+      "file_size_bytes": 398756360,
+      "total_rows": 6739284,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-11-20 11:31:18",
+      "max_datetime": "2015-06-30 11:07:07",
+      "min_unix": 1384947078,
+      "max_unix": 1435662427,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 6739283,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 747248.0,
+        "le_8s_count": 5796564,
+        "le_8s_pct": 86.01,
+        "between_9_15s_count": 910429,
+        "between_9_15s_pct": 13.51,
+        "gt_15s_count": 32290,
+        "gt_15s_pct": 0.48,
+        "gt_30s_count": 12174,
+        "gt_30s_pct": 0.18,
+        "gt_60s_count": 5940,
+        "gt_60s_pct": 0.09,
+        "gt_120s_count": 1365,
+        "gt_120s_pct": 0.02,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 6739284,
+        "mean_val": 776.162,
+        "min_val": 0.0,
+        "max_val": 37031.0,
+        "zero_count": 129,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 70111,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 6739284,
+          "mean_val": 13.34,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5583132,
+          "zero_pct": 82.84,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 6739284,
+          "mean_val": 16.396,
+          "min_val": 0.0,
+          "max_val": 2632.0,
+          "zero_count": 4951019,
+          "zero_pct": 73.47,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 6739284,
+          "mean_val": 43.114,
+          "min_val": 0.0,
+          "max_val": 2116.0,
+          "zero_count": 2653488,
+          "zero_pct": 39.37,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 6739284,
+          "mean_val": 23.52,
+          "min_val": 0.0,
+          "max_val": 2159.0,
+          "zero_count": 4118672,
+          "zero_pct": 61.11,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 6739284,
+          "mean_val": 32.739,
+          "min_val": 0.0,
+          "max_val": 3897.0,
+          "zero_count": 6103190,
+          "zero_pct": 90.56,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 6739284,
+          "mean_val": 147.986,
+          "min_val": 0.0,
+          "max_val": 3585.0,
+          "zero_count": 2045391,
+          "zero_pct": 30.35,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 6739284,
+          "mean_val": 55.966,
+          "min_val": 0.0,
+          "max_val": 2614.0,
+          "zero_count": 342,
+          "zero_pct": 0.01,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 6739284,
+          "mean_val": 3.112,
+          "min_val": 0.0,
+          "max_val": 2974.0,
+          "zero_count": 6701091,
+          "zero_pct": 99.43,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 6739284,
+          "mean_val": 2.785,
+          "min_val": 0.0,
+          "max_val": 3928.0,
+          "zero_count": 6536419,
+          "zero_pct": 96.99,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 6739284,
+        "count_1": 30162,
+        "count_0": 6709122,
+        "count_invalid": 0,
+        "pct_1": 0.4476
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Magimix(Blender)",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Toaster",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Chest Freezer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Fridge-Freezer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Washing Machine",
+          "make": "Beko",
+          "model": "WI1382"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Dishwasher",
+          "make": "AEG",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Television Site",
+          "make": "Samsung",
+          "model": "UE40ES5500K"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Microwave",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "K Mix",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 11,
+      "filename": "CLEAN_House11.csv",
+      "file_size_bytes": 255832544,
+      "total_rows": 4431541,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2014-06-03 11:36:21",
+      "max_datetime": "2015-06-30 15:12:08",
+      "min_unix": 1401795381,
+      "max_unix": 1435677128,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 4431540,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 887146.0,
+        "le_8s_count": 3955940,
+        "le_8s_pct": 89.27,
+        "between_9_15s_count": 462310,
+        "between_9_15s_pct": 10.43,
+        "gt_15s_count": 13290,
+        "gt_15s_pct": 0.3,
+        "gt_30s_count": 7498,
+        "gt_30s_pct": 0.17,
+        "gt_60s_count": 2572,
+        "gt_60s_pct": 0.06,
+        "gt_120s_count": 213,
+        "gt_120s_pct": 0.0,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 4431541,
+        "mean_val": 461.229,
+        "min_val": 0.0,
+        "max_val": 32932.0,
+        "zero_count": 162,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 1621,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 4431541,
+          "mean_val": 8.688,
+          "min_val": 0.0,
+          "max_val": 2885.0,
+          "zero_count": 3605425,
+          "zero_pct": 81.36,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 4431541,
+          "mean_val": 21.69,
+          "min_val": 0.0,
+          "max_val": 2178.0,
+          "zero_count": 3245599,
+          "zero_pct": 73.24,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 4431541,
+          "mean_val": 6.386,
+          "min_val": 0.0,
+          "max_val": 2489.0,
+          "zero_count": 4119997,
+          "zero_pct": 92.97,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 4431541,
+          "mean_val": 5.698,
+          "min_val": 0.0,
+          "max_val": 3032.0,
+          "zero_count": 4397881,
+          "zero_pct": 99.24,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 4431541,
+          "mean_val": 3.079,
+          "min_val": 0.0,
+          "max_val": 2056.0,
+          "zero_count": 3161682,
+          "zero_pct": 71.34,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 4431541,
+          "mean_val": 3.406,
+          "min_val": 0.0,
+          "max_val": 2562.0,
+          "zero_count": 150,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 4431541,
+          "mean_val": 21.685,
+          "min_val": 0.0,
+          "max_val": 2256.0,
+          "zero_count": 4379339,
+          "zero_pct": 98.82,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 4431541,
+          "mean_val": 11.457,
+          "min_val": 0.0,
+          "max_val": 333.0,
+          "zero_count": 39,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 4431541,
+          "mean_val": 3.435,
+          "min_val": 0.0,
+          "max_val": 3588.0,
+          "zero_count": 3665001,
+          "zero_pct": 82.7,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 4431541,
+        "count_1": 40114,
+        "count_0": 4391427,
+        "count_invalid": 0,
+        "pct_1": 0.9052
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge",
+          "make": "Gorenje",
+          "model": "HPI 1566"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Fridge-Freezer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Washing Machine",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Dishwasher",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Computer Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Microwave",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Kettle",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Router",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Hi-Fi",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 12,
+      "filename": "CLEAN_House12.csv",
+      "file_size_bytes": 335009288,
+      "total_rows": 5859544,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2014-03-07 10:52:15",
+      "max_datetime": "2015-07-08 02:10:54",
+      "min_unix": 1394189535,
+      "max_unix": 1436321454,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 5859543,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 747249.0,
+        "le_8s_count": 5157856,
+        "le_8s_pct": 88.02,
+        "between_9_15s_count": 692758,
+        "between_9_15s_pct": 11.82,
+        "gt_15s_count": 8929,
+        "gt_15s_pct": 0.15,
+        "gt_30s_count": 2850,
+        "gt_30s_pct": 0.05,
+        "gt_60s_count": 2354,
+        "gt_60s_pct": 0.04,
+        "gt_120s_count": 398,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 5859544,
+        "mean_val": 367.214,
+        "min_val": 0.0,
+        "max_val": 16543.0,
+        "zero_count": 115,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 21150,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 5859544,
+          "mean_val": 29.9,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 3788090,
+          "zero_pct": 64.65,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 5859544,
+          "mean_val": 41.843,
+          "min_val": 0.0,
+          "max_val": 3600.0,
+          "zero_count": 165,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 5859544,
+          "mean_val": 4.425,
+          "min_val": 0.0,
+          "max_val": 3073.0,
+          "zero_count": 2214531,
+          "zero_pct": 37.79,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 5859544,
+          "mean_val": 23.788,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 5803289,
+          "zero_pct": 99.04,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 5859544,
+          "mean_val": 1.654,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5829829,
+          "zero_pct": 99.49,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 5859544,
+          "mean_val": 5.118,
+          "min_val": 0.0,
+          "max_val": 2050.0,
+          "zero_count": 5581352,
+          "zero_pct": 95.25,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 5859544,
+          "mean_val": 0.0,
+          "min_val": 0.0,
+          "max_val": 0.0,
+          "zero_count": 5859544,
+          "zero_pct": 100.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 5859544,
+          "mean_val": 0.0,
+          "min_val": 0.0,
+          "max_val": 0.0,
+          "zero_count": 5859544,
+          "zero_pct": 100.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 5859544,
+          "mean_val": 0.0,
+          "min_val": 0.0,
+          "max_val": 0.0,
+          "zero_count": 5859544,
+          "zero_pct": 100.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 5859544,
+        "count_1": 14183,
+        "count_0": 5845361,
+        "count_invalid": 0,
+        "pct_1": 0.242
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge-Freezer",
+          "make": "Gorenje",
+          "model": "HZS 3266"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "???",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "???",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Computer Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Microwave",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Kettle",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Toaster",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Television",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "???",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 13,
+      "filename": "CLEAN_House13.csv",
+      "file_size_bytes": 276518579,
+      "total_rows": 4737371,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2014-01-17 22:26:20",
+      "max_datetime": "2015-05-31 11:06:07",
+      "min_unix": 1389997580,
+      "max_unix": 1433070367,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 4737370,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 3549050.0,
+        "le_8s_count": 3745853,
+        "le_8s_pct": 79.07,
+        "between_9_15s_count": 929167,
+        "between_9_15s_pct": 19.61,
+        "gt_15s_count": 62350,
+        "gt_15s_pct": 1.32,
+        "gt_30s_count": 12025,
+        "gt_30s_pct": 0.25,
+        "gt_60s_count": 7982,
+        "gt_60s_pct": 0.17,
+        "gt_120s_count": 1421,
+        "gt_120s_pct": 0.03,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 4737371,
+        "mean_val": 557.766,
+        "min_val": 0.0,
+        "max_val": 25140.0,
+        "zero_count": 2,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 41668,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 4737371,
+          "mean_val": 6.064,
+          "min_val": 0.0,
+          "max_val": 2688.0,
+          "zero_count": 4450193,
+          "zero_pct": 93.94,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 4737371,
+          "mean_val": 34.429,
+          "min_val": 0.0,
+          "max_val": 2048.0,
+          "zero_count": 4059610,
+          "zero_pct": 85.69,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 4737371,
+          "mean_val": 21.769,
+          "min_val": 0.0,
+          "max_val": 3074.0,
+          "zero_count": 4035588,
+          "zero_pct": 85.19,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 4737371,
+          "mean_val": 22.897,
+          "min_val": 0.0,
+          "max_val": 2448.0,
+          "zero_count": 4645565,
+          "zero_pct": 98.06,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 4737371,
+          "mean_val": 68.689,
+          "min_val": 0.0,
+          "max_val": 2960.0,
+          "zero_count": 2318047,
+          "zero_pct": 48.93,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 4737371,
+          "mean_val": 61.382,
+          "min_val": 0.0,
+          "max_val": 3593.0,
+          "zero_count": 2539787,
+          "zero_pct": 53.61,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 4737371,
+          "mean_val": 38.71,
+          "min_val": 0.0,
+          "max_val": 3348.0,
+          "zero_count": 277,
+          "zero_pct": 0.01,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 4737371,
+          "mean_val": 4.647,
+          "min_val": 0.0,
+          "max_val": 3073.0,
+          "zero_count": 627,
+          "zero_pct": 0.01,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 4737371,
+          "mean_val": 17.046,
+          "min_val": 0.0,
+          "max_val": 3840.0,
+          "zero_count": 4685013,
+          "zero_pct": 98.89,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 4737371,
+        "count_1": 123796,
+        "count_0": 4613575,
+        "count_invalid": 0,
+        "pct_1": 2.6132
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Television Site",
+          "make": "Samsung",
+          "model": "UE55H6400AK"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Freezer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Washing Machine",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Dishwasher",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "???",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Network Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Microwave",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Microwave",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Kettle",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 15,
+      "filename": "CLEAN_House15.csv",
+      "file_size_bytes": 353152325,
+      "total_rows": 6225696,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2013-12-17 17:24:18",
+      "max_datetime": "2015-07-08 02:10:54",
+      "min_unix": 1387301058,
+      "max_unix": 1436321454,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 6225695,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 747247.0,
+        "le_8s_count": 4973833,
+        "le_8s_pct": 79.89,
+        "between_9_15s_count": 1229456,
+        "between_9_15s_pct": 19.75,
+        "gt_15s_count": 22406,
+        "gt_15s_pct": 0.36,
+        "gt_30s_count": 8103,
+        "gt_30s_pct": 0.13,
+        "gt_60s_count": 2713,
+        "gt_60s_pct": 0.04,
+        "gt_120s_count": 1070,
+        "gt_120s_pct": 0.02,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 6225696,
+        "mean_val": 254.835,
+        "min_val": 0.0,
+        "max_val": 8840.0,
+        "zero_count": 10,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 3956,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 6225696,
+          "mean_val": 24.408,
+          "min_val": 0.0,
+          "max_val": 2048.0,
+          "zero_count": 4260713,
+          "zero_pct": 68.44,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 6225696,
+          "mean_val": 11.344,
+          "min_val": 0.0,
+          "max_val": 2710.0,
+          "zero_count": 6177743,
+          "zero_pct": 99.23,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 6225696,
+          "mean_val": 17.352,
+          "min_val": 0.0,
+          "max_val": 3336.0,
+          "zero_count": 6001436,
+          "zero_pct": 96.4,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 6225696,
+          "mean_val": 1.333,
+          "min_val": 0.0,
+          "max_val": 3328.0,
+          "zero_count": 6209974,
+          "zero_pct": 99.75,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 6225696,
+          "mean_val": 0.946,
+          "min_val": 0.0,
+          "max_val": 3598.0,
+          "zero_count": 5944714,
+          "zero_pct": 95.49,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 6225696,
+          "mean_val": 17.702,
+          "min_val": 0.0,
+          "max_val": 2118.0,
+          "zero_count": 4641225,
+          "zero_pct": 74.55,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 6225696,
+          "mean_val": 2.561,
+          "min_val": 0.0,
+          "max_val": 3585.0,
+          "zero_count": 1222898,
+          "zero_pct": 19.64,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 6225696,
+          "mean_val": 11.416,
+          "min_val": 0.0,
+          "max_val": 3084.0,
+          "zero_count": 6197495,
+          "zero_pct": 99.55,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 6225696,
+          "mean_val": 0.286,
+          "min_val": 0.0,
+          "max_val": 2560.0,
+          "zero_count": 6223564,
+          "zero_pct": 99.97,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 6225696,
+        "count_1": 23349,
+        "count_0": 6202347,
+        "count_invalid": 0,
+        "pct_1": 0.375
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge-Freezer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Tumble Dryer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Washing Machine",
+          "make": "Beko",
+          "model": "WMB91242LB"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Dishwasher",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Computer Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Television Site",
+          "make": "LG",
+          "model": "22LS4D"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Microwave",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Hi-Fi",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Toaster",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 16,
+      "filename": "CLEAN_House16.csv",
+      "file_size_bytes": 333937465,
+      "total_rows": 5722544,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2014-01-10 10:58:19",
+      "max_datetime": "2015-07-08 02:10:54",
+      "min_unix": 1389351499,
+      "max_unix": 1436321454,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 5722543,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 1562990.0,
+        "le_8s_count": 4973795,
+        "le_8s_pct": 86.92,
+        "between_9_15s_count": 727195,
+        "between_9_15s_pct": 12.71,
+        "gt_15s_count": 21553,
+        "gt_15s_pct": 0.38,
+        "gt_30s_count": 7415,
+        "gt_30s_pct": 0.13,
+        "gt_60s_count": 1677,
+        "gt_60s_pct": 0.03,
+        "gt_120s_count": 979,
+        "gt_120s_pct": 0.02,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 5722544,
+        "mean_val": 555.728,
+        "min_val": 0.0,
+        "max_val": 68093.0,
+        "zero_count": 3,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 28671,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 5722544,
+          "mean_val": 44.576,
+          "min_val": 0.0,
+          "max_val": 2054.0,
+          "zero_count": 1676568,
+          "zero_pct": 29.3,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 5722544,
+          "mean_val": 19.603,
+          "min_val": 0.0,
+          "max_val": 3072.0,
+          "zero_count": 4418600,
+          "zero_pct": 77.21,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 5722544,
+          "mean_val": 0.248,
+          "min_val": 0.0,
+          "max_val": 3552.0,
+          "zero_count": 5719897,
+          "zero_pct": 99.95,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 5722544,
+          "mean_val": 2.121,
+          "min_val": 0.0,
+          "max_val": 3421.0,
+          "zero_count": 4534865,
+          "zero_pct": 79.25,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 5722544,
+          "mean_val": 19.466,
+          "min_val": 0.0,
+          "max_val": 3076.0,
+          "zero_count": 5339138,
+          "zero_pct": 93.3,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 5722544,
+          "mean_val": 26.757,
+          "min_val": 0.0,
+          "max_val": 3328.0,
+          "zero_count": 5354020,
+          "zero_pct": 93.56,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 5722544,
+          "mean_val": 19.077,
+          "min_val": 0.0,
+          "max_val": 3975.0,
+          "zero_count": 1779852,
+          "zero_pct": 31.1,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 5722544,
+          "mean_val": 48.325,
+          "min_val": 0.0,
+          "max_val": 2455.0,
+          "zero_count": 2530587,
+          "zero_pct": 44.22,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 5722544,
+          "mean_val": 29.141,
+          "min_val": 0.0,
+          "max_val": 2703.0,
+          "zero_count": 5287973,
+          "zero_pct": 92.41,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 5722544,
+        "count_1": 14713,
+        "count_0": 5707831,
+        "count_invalid": 0,
+        "pct_1": 0.2571
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge-Freezer(1)",
+          "make": "Bosch",
+          "model": "KGN30VW20G/01"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Fridge-Freezer(2)",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Electric Heater(1)",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Electric Heater(2)",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Washing Machine",
+          "make": "Bosch",
+          "model": "WAB24262GB/01"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Dishwasher",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Computer Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Television Site",
+          "make": "Samsung",
+          "model": "UE55HU8500T"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Dehumidifier",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 17,
+      "filename": "CLEAN_House17.csv",
+      "file_size_bytes": 317925929,
+      "total_rows": 5431577,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2014-03-06 16:23:19",
+      "max_datetime": "2015-06-19 14:52:18",
+      "min_unix": 1394122999,
+      "max_unix": 1434725538,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 5431576,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 747252.0,
+        "le_8s_count": 4355999,
+        "le_8s_pct": 80.2,
+        "between_9_15s_count": 1054015,
+        "between_9_15s_pct": 19.41,
+        "gt_15s_count": 21562,
+        "gt_15s_pct": 0.4,
+        "gt_30s_count": 7948,
+        "gt_30s_pct": 0.15,
+        "gt_60s_count": 2733,
+        "gt_60s_pct": 0.05,
+        "gt_120s_count": 279,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 5431577,
+        "mean_val": 405.747,
+        "min_val": 0.0,
+        "max_val": 68232.0,
+        "zero_count": 21,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 29682,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 5431577,
+          "mean_val": 57.235,
+          "min_val": 0.0,
+          "max_val": 2190.0,
+          "zero_count": 3268816,
+          "zero_pct": 60.18,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 5431577,
+          "mean_val": 28.81,
+          "min_val": 0.0,
+          "max_val": 2130.0,
+          "zero_count": 3452863,
+          "zero_pct": 63.57,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 5431577,
+          "mean_val": 5.535,
+          "min_val": 0.0,
+          "max_val": 2688.0,
+          "zero_count": 5412154,
+          "zero_pct": 99.64,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 5431577,
+          "mean_val": 10.604,
+          "min_val": 0.0,
+          "max_val": 2399.0,
+          "zero_count": 5254546,
+          "zero_pct": 96.74,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 5431577,
+          "mean_val": 20.248,
+          "min_val": 0.0,
+          "max_val": 3178.0,
+          "zero_count": 55,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 5431577,
+          "mean_val": 18.492,
+          "min_val": 0.0,
+          "max_val": 3083.0,
+          "zero_count": 593311,
+          "zero_pct": 10.92,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 5431577,
+          "mean_val": 6.425,
+          "min_val": 0.0,
+          "max_val": 2050.0,
+          "zero_count": 423,
+          "zero_pct": 0.01,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 5431577,
+          "mean_val": 27.268,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5340832,
+          "zero_pct": 98.33,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 5431577,
+          "mean_val": 0.998,
+          "min_val": 0.0,
+          "max_val": 3120.0,
+          "zero_count": 3080046,
+          "zero_pct": 56.71,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 5431577,
+        "count_1": 85937,
+        "count_0": 5345640,
+        "count_invalid": 0,
+        "pct_1": 1.5822
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Freezer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Fridge-Freezer",
+          "make": "Whirlpool",
+          "model": "ARC 2990"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Tumble Dryer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Washing Machine",
+          "make": "Bosch",
+          "model": "Exxcel 8 Vario Perfect"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Computer Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Television Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Microwave",
+          "make": "Matsui",
+          "model": "M195T"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Kettle",
+          "make": "Russel Hobbs",
+          "model": "17869"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "TV Site(Bedroom)",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 18,
+      "filename": "CLEAN_House18.csv",
+      "file_size_bytes": 301534016,
+      "total_rows": 5007721,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2014-03-07 10:33:18",
+      "max_datetime": "2015-05-24 11:34:04",
+      "min_unix": 1394188398,
+      "max_unix": 1432467244,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 5007720,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 747256.0,
+        "le_8s_count": 3929964,
+        "le_8s_pct": 78.48,
+        "between_9_15s_count": 1060303,
+        "between_9_15s_pct": 21.17,
+        "gt_15s_count": 17453,
+        "gt_15s_pct": 0.35,
+        "gt_30s_count": 5624,
+        "gt_30s_pct": 0.11,
+        "gt_60s_count": 465,
+        "gt_60s_pct": 0.01,
+        "gt_120s_count": 106,
+        "gt_120s_pct": 0.0,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 5007721,
+        "mean_val": 449.6,
+        "min_val": 0.0,
+        "max_val": 29008.0,
+        "zero_count": 23682,
+        "zero_pct": 0.47,
+        "negative_count": 0,
+        "above_4000_count": 6652,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 5007721,
+          "mean_val": 19.032,
+          "min_val": 0.0,
+          "max_val": 2159.0,
+          "zero_count": 4156707,
+          "zero_pct": 83.01,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 5007721,
+          "mean_val": 56.738,
+          "min_val": 0.0,
+          "max_val": 2560.0,
+          "zero_count": 3308257,
+          "zero_pct": 66.06,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 5007721,
+          "mean_val": 66.792,
+          "min_val": 0.0,
+          "max_val": 2173.0,
+          "zero_count": 426709,
+          "zero_pct": 8.52,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 5007721,
+          "mean_val": 1.521,
+          "min_val": 0.0,
+          "max_val": 2816.0,
+          "zero_count": 4996987,
+          "zero_pct": 99.79,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 5007721,
+          "mean_val": 5.017,
+          "min_val": 0.0,
+          "max_val": 2475.0,
+          "zero_count": 4934626,
+          "zero_pct": 98.54,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 5007721,
+          "mean_val": 23.083,
+          "min_val": 0.0,
+          "max_val": 3488.0,
+          "zero_count": 4894464,
+          "zero_pct": 97.74,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 5007721,
+          "mean_val": 26.668,
+          "min_val": 0.0,
+          "max_val": 3853.0,
+          "zero_count": 49,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 5007721,
+          "mean_val": 41.785,
+          "min_val": 0.0,
+          "max_val": 3913.0,
+          "zero_count": 938,
+          "zero_pct": 0.02,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 5007721,
+          "mean_val": 3.549,
+          "min_val": 0.0,
+          "max_val": 3585.0,
+          "zero_count": 2450,
+          "zero_pct": 0.05,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 5007721,
+        "count_1": 174490,
+        "count_0": 4833231,
+        "count_invalid": 0,
+        "pct_1": 3.4844
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge(garage)",
+          "make": "LEC",
+          "model": "R"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Freezer(garage)",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Fridge-Freezer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Washer Dryer(garage)",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Washing Machine",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Dishwasher",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Desktop Computer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Television Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Microwave",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 19,
+      "filename": "CLEAN_House19.csv",
+      "file_size_bytes": 320691540,
+      "total_rows": 5622610,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2014-03-06 16:23:19",
+      "max_datetime": "2015-06-20 03:32:54",
+      "min_unix": 1394122999,
+      "max_unix": 1434771174,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 5622609,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 747249.0,
+        "le_8s_count": 4584428,
+        "le_8s_pct": 81.54,
+        "between_9_15s_count": 1016563,
+        "between_9_15s_pct": 18.08,
+        "gt_15s_count": 21618,
+        "gt_15s_pct": 0.38,
+        "gt_30s_count": 8672,
+        "gt_30s_pct": 0.15,
+        "gt_60s_count": 3154,
+        "gt_60s_pct": 0.06,
+        "gt_120s_count": 481,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 5622610,
+        "mean_val": 291.315,
+        "min_val": 0.0,
+        "max_val": 8856.0,
+        "zero_count": 19,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 6543,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 5622610,
+          "mean_val": 50.235,
+          "min_val": 0.0,
+          "max_val": 3840.0,
+          "zero_count": 2657124,
+          "zero_pct": 47.26,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 5622610,
+          "mean_val": 6.376,
+          "min_val": 0.0,
+          "max_val": 3072.0,
+          "zero_count": 5255711,
+          "zero_pct": 93.47,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 5622610,
+          "mean_val": 14.136,
+          "min_val": 0.0,
+          "max_val": 3847.0,
+          "zero_count": 119,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 5622610,
+          "mean_val": 2.877,
+          "min_val": 0.0,
+          "max_val": 3072.0,
+          "zero_count": 5600685,
+          "zero_pct": 99.61,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 5622610,
+          "mean_val": 14.983,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5588183,
+          "zero_pct": 99.39,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 5622610,
+          "mean_val": 1.884,
+          "min_val": 0.0,
+          "max_val": 2248.0,
+          "zero_count": 5607818,
+          "zero_pct": 99.74,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 5622610,
+          "mean_val": 5.355,
+          "min_val": 0.0,
+          "max_val": 3616.0,
+          "zero_count": 5503188,
+          "zero_pct": 97.88,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 5622610,
+          "mean_val": 2.872,
+          "min_val": 0.0,
+          "max_val": 3120.0,
+          "zero_count": 5412683,
+          "zero_pct": 96.27,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 5622610,
+          "mean_val": 0.26,
+          "min_val": 0.0,
+          "max_val": 3840.0,
+          "zero_count": 5512829,
+          "zero_pct": 98.05,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 5622610,
+        "count_1": 62636,
+        "count_0": 5559974,
+        "count_invalid": 0,
+        "pct_1": 1.114
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge Freezer",
+          "make": "Bosch",
+          "model": "KGS-3272-GB/01"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Washing Machine",
+          "make": "Bosch",
+          "model": "WAE24060GB/03"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Television Site",
+          "make": "Sony",
+          "model": "KDL32EX703"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Microwave",
+          "make": "Kenwood",
+          "model": "K20MSS10"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Kettle",
+          "make": "Breville",
+          "model": "VKJ336"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Toaster",
+          "make": "Bellini",
+          "model": "BET240"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Bread-maker",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Games Console",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Hi-Fi",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 20,
+      "filename": "CLEAN_House20.csv",
+      "file_size_bytes": 299757142,
+      "total_rows": 5168605,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2014-03-20 12:01:19",
+      "max_datetime": "2015-06-23 19:44:00",
+      "min_unix": 1395316879,
+      "max_unix": 1435088640,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 5168604,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 747248.0,
+        "le_8s_count": 4149233,
+        "le_8s_pct": 80.28,
+        "between_9_15s_count": 1001863,
+        "between_9_15s_pct": 19.38,
+        "gt_15s_count": 17508,
+        "gt_15s_pct": 0.34,
+        "gt_30s_count": 6832,
+        "gt_30s_pct": 0.13,
+        "gt_60s_count": 1738,
+        "gt_60s_pct": 0.03,
+        "gt_120s_count": 89,
+        "gt_120s_pct": 0.0,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 5168605,
+        "mean_val": 377.997,
+        "min_val": 0.0,
+        "max_val": 32889.0,
+        "zero_count": 1,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 9404,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 5168605,
+          "mean_val": 35.72,
+          "min_val": 0.0,
+          "max_val": 2129.0,
+          "zero_count": 3009416,
+          "zero_pct": 58.22,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 5168605,
+          "mean_val": 56.058,
+          "min_val": 0.0,
+          "max_val": 2050.0,
+          "zero_count": 97,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 5168605,
+          "mean_val": 19.417,
+          "min_val": 0.0,
+          "max_val": 3623.0,
+          "zero_count": 5069738,
+          "zero_pct": 98.09,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 5168605,
+          "mean_val": 8.208,
+          "min_val": 0.0,
+          "max_val": 2560.0,
+          "zero_count": 5024193,
+          "zero_pct": 97.21,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 5168605,
+          "mean_val": 11.3,
+          "min_val": 0.0,
+          "max_val": 3588.0,
+          "zero_count": 5032130,
+          "zero_pct": 97.36,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 5168605,
+          "mean_val": 6.641,
+          "min_val": 0.0,
+          "max_val": 2096.0,
+          "zero_count": 4711453,
+          "zero_pct": 91.16,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 5168605,
+          "mean_val": 15.131,
+          "min_val": 0.0,
+          "max_val": 3850.0,
+          "zero_count": 254,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 5168605,
+          "mean_val": 7.283,
+          "min_val": 0.0,
+          "max_val": 3586.0,
+          "zero_count": 188,
+          "zero_pct": 0.0,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 5168605,
+          "mean_val": 13.174,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 5139549,
+          "zero_pct": 99.44,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 5168605,
+        "count_1": 19594,
+        "count_0": 5149011,
+        "count_invalid": 0,
+        "pct_1": 0.3791
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Freezer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Tumble Dryer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Washing Machine",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Dishwasher",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Computer Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Television Site",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Microwave",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Kettle",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    },
+    {
+      "household_id": 21,
+      "filename": "CLEAN_House21.csv",
+      "file_size_bytes": 316713466,
+      "total_rows": 5383993,
+      "malformed_rows": 0,
+      "header_valid": true,
+      "min_datetime": "2014-03-07 16:20:20",
+      "max_datetime": "2015-07-10 11:56:35",
+      "min_unix": 1394209220,
+      "max_unix": 1436529395,
+      "is_monotonic": true,
+      "duplicate_timestamps": 0,
+      "gaps": {
+        "total_intervals": 5383992,
+        "min_gap_seconds": 1.0,
+        "max_gap_seconds": 1268252.0,
+        "le_8s_count": 4300243,
+        "le_8s_pct": 79.87,
+        "between_9_15s_count": 1065827,
+        "between_9_15s_pct": 19.8,
+        "gt_15s_count": 17922,
+        "gt_15s_pct": 0.33,
+        "gt_30s_count": 6772,
+        "gt_30s_pct": 0.13,
+        "gt_60s_count": 1513,
+        "gt_60s_pct": 0.03,
+        "gt_120s_count": 288,
+        "gt_120s_pct": 0.01,
+        "zero_or_negative_gaps": 0
+      },
+      "aggregate": {
+        "valid_count": 5383993,
+        "mean_val": 646.84,
+        "min_val": 0.0,
+        "max_val": 65793.0,
+        "zero_count": 72,
+        "zero_pct": 0.0,
+        "negative_count": 0,
+        "above_4000_count": 11812,
+        "nan_count": 0,
+        "non_numeric_count": 0
+      },
+      "appliances": {
+        "Appliance1": {
+          "valid_count": 5383993,
+          "mean_val": 45.317,
+          "min_val": 0.0,
+          "max_val": 3969.0,
+          "zero_count": 7462,
+          "zero_pct": 0.14,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance2": {
+          "valid_count": 5383993,
+          "mean_val": 23.538,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 5277086,
+          "zero_pct": 98.01,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance3": {
+          "valid_count": 5383993,
+          "mean_val": 14.706,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 5198493,
+          "zero_pct": 96.55,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance4": {
+          "valid_count": 5383993,
+          "mean_val": 46.683,
+          "min_val": 0.0,
+          "max_val": 3968.0,
+          "zero_count": 4650954,
+          "zero_pct": 86.38,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance5": {
+          "valid_count": 5383993,
+          "mean_val": 0.062,
+          "min_val": 0.0,
+          "max_val": 382.0,
+          "zero_count": 5377176,
+          "zero_pct": 99.87,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance6": {
+          "valid_count": 5383993,
+          "mean_val": 6.612,
+          "min_val": 0.0,
+          "max_val": 2946.0,
+          "zero_count": 4314722,
+          "zero_pct": 80.14,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance7": {
+          "valid_count": 5383993,
+          "mean_val": 6.966,
+          "min_val": 0.0,
+          "max_val": 3584.0,
+          "zero_count": 5354609,
+          "zero_pct": 99.45,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance8": {
+          "valid_count": 5383993,
+          "mean_val": 19.435,
+          "min_val": 0.0,
+          "max_val": 2489.0,
+          "zero_count": 17753,
+          "zero_pct": 0.33,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        },
+        "Appliance9": {
+          "valid_count": 5383993,
+          "mean_val": 27.129,
+          "min_val": 0.0,
+          "max_val": 3631.0,
+          "zero_count": 2094612,
+          "zero_pct": 38.9,
+          "negative_count": 0,
+          "above_4000_count": 0,
+          "nan_count": 0,
+          "non_numeric_count": 0
+        }
+      },
+      "issues": {
+        "total": 5383993,
+        "count_1": 206832,
+        "count_0": 5177161,
+        "count_invalid": 0,
+        "pct_1": 3.8416
+      },
+      "appliance_mapping": {
+        "Appliance1": {
+          "iam_index": 1,
+          "name": "Fridge-Freezer",
+          "make": "Samsung",
+          "model": "SR-L3216B"
+        },
+        "Appliance2": {
+          "iam_index": 2,
+          "name": "Tumble Dryer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance3": {
+          "iam_index": 3,
+          "name": "Washing Machine",
+          "make": "Beko",
+          "model": "WMB81241LW"
+        },
+        "Appliance4": {
+          "iam_index": 4,
+          "name": "Dishwasher",
+          "make": "AEG",
+          "model": "FAVORIT"
+        },
+        "Appliance5": {
+          "iam_index": 5,
+          "name": "Food Mixer",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance6": {
+          "iam_index": 6,
+          "name": "Television",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance7": {
+          "iam_index": 7,
+          "name": "Kettle",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance8": {
+          "iam_index": 8,
+          "name": "Vivarium",
+          "make": "Unknown",
+          "model": "Unknown"
+        },
+        "Appliance9": {
+          "iam_index": 9,
+          "name": "Pond Pump",
+          "make": "Unknown",
+          "model": "Unknown"
+        }
+      }
+    }
+  ]
+}

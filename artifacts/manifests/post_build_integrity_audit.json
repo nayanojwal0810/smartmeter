@@ -1,0 +1,320 @@
+{
+  "audit_status": "PASS",
+  "execution_metadata": {
+    "recorded_actual_runtime": "8m10s",
+    "runtime_seconds_approx": 490,
+    "households_processed": 20,
+    "total_windows": 174072,
+    "total_windows_with_kettle_target": 15837,
+    "overall_kettle_target_window_pct": 9.1
+  },
+  "config_verified": {
+    "grid_step_s": 8,
+    "max_bridge_gap_s": 16,
+    "window_points": 510,
+    "window_duration_seconds": 4072,
+    "kettle_power_threshold_w": 1500.0,
+    "kettle_max_continuity_gap_s": 20,
+    "kettle_max_duration_s": 600,
+    "kettle_excluded_households": [
+      12
+    ]
+  },
+  "checks": {
+    "file_existence_and_sizes": {
+      "passed": true,
+      "files_exist": {
+        "timebase_windows.jsonl": true,
+        "kettle_evaluation_targets.jsonl": true,
+        "timebase_window_index.json": true,
+        "timebase_window_index.md": true
+      },
+      "file_sizes": {
+        "timebase_windows.jsonl_bytes": 61135137,
+        "kettle_evaluation_targets.jsonl_bytes": 38752083,
+        "timebase_window_index.json_bytes": 8929,
+        "timebase_window_index.md_bytes": 3168
+      }
+    },
+    "window_count_consistency": {
+      "passed": true,
+      "total_windows_in_summary_json": 174072,
+      "lines_in_windows_jsonl": 174072,
+      "lines_in_targets_jsonl": 174072,
+      "expected_count": 174072
+    },
+    "window_structure_and_separation": {
+      "passed": true,
+      "window_id_strictly_monotonic": true,
+      "all_num_points_510": true,
+      "all_duration_4072": true,
+      "no_strong_kettle_in_windows": true,
+      "forbidden_keys_found": []
+    },
+    "target_artifact_and_policy": {
+      "passed": true,
+      "target_id_strictly_monotonic": true,
+      "target_matches_window_keys": true,
+      "h12_ineligible_ok": true,
+      "unmonitored_ineligible_ok": true,
+      "eligible_households_ok": true,
+      "active_windows_in_targets_jsonl": 15837,
+      "active_windows_in_summary_json": 15837
+    },
+    "segment_and_household_accounting": {
+      "passed": true,
+      "total_contiguous_segments": 386864,
+      "segments_with_windows": 23548,
+      "segments_without_windows": 363316,
+      "segment_sum_identity_valid": true,
+      "household_sums_match_overview": true
+    },
+    "markdown_cross_verification": {
+      "passed": true,
+      "markdown_contains_total_windows": true,
+      "markdown_covers_all_20_households": true
+    }
+  },
+  "household_breakdown": [
+    {
+      "household_id": 1,
+      "filename": "CLEAN_House1.csv",
+      "kettle_channel": null,
+      "is_evaluation_eligible": false,
+      "total_contiguous_segments": 12779,
+      "segments_with_windows_count": 1517,
+      "segments_without_windows_count": 11262,
+      "total_510_windows": 10388,
+      "windows_with_kettle_target": 0,
+      "kettle_target_window_pct": 0.0
+    },
+    {
+      "household_id": 2,
+      "filename": "CLEAN_House2.csv",
+      "kettle_channel": "Appliance8",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 14707,
+      "segments_with_windows_count": 1106,
+      "segments_without_windows_count": 13601,
+      "total_510_windows": 8730,
+      "windows_with_kettle_target": 2053,
+      "kettle_target_window_pct": 23.52
+    },
+    {
+      "household_id": 3,
+      "filename": "CLEAN_House3.csv",
+      "kettle_channel": "Appliance9",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 12448,
+      "segments_with_windows_count": 1382,
+      "segments_without_windows_count": 11066,
+      "total_510_windows": 10246,
+      "windows_with_kettle_target": 125,
+      "kettle_target_window_pct": 1.22
+    },
+    {
+      "household_id": 4,
+      "filename": "CLEAN_House4.csv",
+      "kettle_channel": "Appliance9",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 21146,
+      "segments_with_windows_count": 1357,
+      "segments_without_windows_count": 19789,
+      "total_510_windows": 10208,
+      "windows_with_kettle_target": 1441,
+      "kettle_target_window_pct": 14.12
+    },
+    {
+      "household_id": 5,
+      "filename": "CLEAN_House5.csv",
+      "kettle_channel": "Appliance8",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 57521,
+      "segments_with_windows_count": 2243,
+      "segments_without_windows_count": 55278,
+      "total_510_windows": 7651,
+      "windows_with_kettle_target": 1798,
+      "kettle_target_window_pct": 23.5
+    },
+    {
+      "household_id": 6,
+      "filename": "CLEAN_House6.csv",
+      "kettle_channel": "Appliance7",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 22827,
+      "segments_with_windows_count": 1469,
+      "segments_without_windows_count": 21358,
+      "total_510_windows": 8423,
+      "windows_with_kettle_target": 81,
+      "kettle_target_window_pct": 0.96
+    },
+    {
+      "household_id": 7,
+      "filename": "CLEAN_House7.csv",
+      "kettle_channel": "Appliance9",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 16072,
+      "segments_with_windows_count": 1185,
+      "segments_without_windows_count": 14887,
+      "total_510_windows": 10187,
+      "windows_with_kettle_target": 54,
+      "kettle_target_window_pct": 0.53
+    },
+    {
+      "household_id": 8,
+      "filename": "CLEAN_House8.csv",
+      "kettle_channel": "Appliance9",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 16059,
+      "segments_with_windows_count": 1202,
+      "segments_without_windows_count": 14857,
+      "total_510_windows": 9362,
+      "windows_with_kettle_target": 2264,
+      "kettle_target_window_pct": 24.18
+    },
+    {
+      "household_id": 9,
+      "filename": "CLEAN_House9.csv",
+      "kettle_channel": "Appliance7",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 16026,
+      "segments_with_windows_count": 1027,
+      "segments_without_windows_count": 14999,
+      "total_510_windows": 9154,
+      "windows_with_kettle_target": 2120,
+      "kettle_target_window_pct": 23.16
+    },
+    {
+      "household_id": 10,
+      "filename": "CLEAN_House10.csv",
+      "kettle_channel": null,
+      "is_evaluation_eligible": false,
+      "total_contiguous_segments": 27333,
+      "segments_with_windows_count": 1430,
+      "segments_without_windows_count": 25903,
+      "total_510_windows": 9120,
+      "windows_with_kettle_target": 0,
+      "kettle_target_window_pct": 0.0
+    },
+    {
+      "household_id": 11,
+      "filename": "CLEAN_House11.csv",
+      "kettle_channel": "Appliance7",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 11209,
+      "segments_with_windows_count": 538,
+      "segments_without_windows_count": 10671,
+      "total_510_windows": 6807,
+      "windows_with_kettle_target": 1838,
+      "kettle_target_window_pct": 27.0
+    },
+    {
+      "household_id": 12,
+      "filename": "CLEAN_House12.csv",
+      "kettle_channel": "Appliance6",
+      "is_evaluation_eligible": false,
+      "total_contiguous_segments": 7515,
+      "segments_with_windows_count": 1062,
+      "segments_without_windows_count": 6453,
+      "total_510_windows": 8758,
+      "windows_with_kettle_target": 0,
+      "kettle_target_window_pct": 0.0
+    },
+    {
+      "household_id": 13,
+      "filename": "CLEAN_House13.csv",
+      "kettle_channel": "Appliance9",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 50161,
+      "segments_with_windows_count": 1400,
+      "segments_without_windows_count": 48761,
+      "total_510_windows": 5778,
+      "windows_with_kettle_target": 145,
+      "kettle_target_window_pct": 2.51
+    },
+    {
+      "household_id": 15,
+      "filename": "CLEAN_House15.csv",
+      "kettle_channel": null,
+      "is_evaluation_eligible": false,
+      "total_contiguous_segments": 15061,
+      "segments_with_windows_count": 1012,
+      "segments_without_windows_count": 14049,
+      "total_510_windows": 9387,
+      "windows_with_kettle_target": 0,
+      "kettle_target_window_pct": 0.0
+    },
+    {
+      "household_id": 16,
+      "filename": "CLEAN_House16.csv",
+      "kettle_channel": null,
+      "is_evaluation_eligible": false,
+      "total_contiguous_segments": 16734,
+      "segments_with_windows_count": 1097,
+      "segments_without_windows_count": 15637,
+      "total_510_windows": 8316,
+      "windows_with_kettle_target": 0,
+      "kettle_target_window_pct": 0.0
+    },
+    {
+      "household_id": 17,
+      "filename": "CLEAN_House17.csv",
+      "kettle_channel": "Appliance8",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 15333,
+      "segments_with_windows_count": 909,
+      "segments_without_windows_count": 14424,
+      "total_510_windows": 8353,
+      "windows_with_kettle_target": 2257,
+      "kettle_target_window_pct": 27.02
+    },
+    {
+      "household_id": 18,
+      "filename": "CLEAN_House18.csv",
+      "kettle_channel": null,
+      "is_evaluation_eligible": false,
+      "total_contiguous_segments": 11648,
+      "segments_with_windows_count": 845,
+      "segments_without_windows_count": 10803,
+      "total_510_windows": 8065,
+      "windows_with_kettle_target": 0,
+      "kettle_target_window_pct": 0.0
+    },
+    {
+      "household_id": 19,
+      "filename": "CLEAN_House19.csv",
+      "kettle_channel": "Appliance5",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 15790,
+      "segments_with_windows_count": 1002,
+      "segments_without_windows_count": 14788,
+      "total_510_windows": 8253,
+      "windows_with_kettle_target": 57,
+      "kettle_target_window_pct": 0.69
+    },
+    {
+      "household_id": 20,
+      "filename": "CLEAN_House20.csv",
+      "kettle_channel": "Appliance9",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 12765,
+      "segments_with_windows_count": 819,
+      "segments_without_windows_count": 11946,
+      "total_510_windows": 8419,
+      "windows_with_kettle_target": 1595,
+      "kettle_target_window_pct": 18.95
+    },
+    {
+      "household_id": 21,
+      "filename": "CLEAN_House21.csv",
+      "kettle_channel": "Appliance7",
+      "is_evaluation_eligible": true,
+      "total_contiguous_segments": 13730,
+      "segments_with_windows_count": 946,
+      "segments_without_windows_count": 12784,
+      "total_510_windows": 8467,
+      "windows_with_kettle_target": 9,
+      "kettle_target_window_pct": 0.11
+    }
+  ]
+}
